@@ -1,0 +1,15 @@
+<!-- snippets/live_preview_snippet.html -->
+<div class="text-xs text-gray-500" id="eurHint">≈ €0.00</div>
+<script>
+(function(){
+  var rate = <?= json_encode((float)($settings['alz_to_eur'] ?? 0.01)) ?>;
+  var inp = document.querySelector('input[name="price_alz"]');
+  var hint = document.getElementById('eurHint');
+  function upd(){
+    var v = parseFloat(inp && inp.value ? inp.value : '0');
+    var eur = (isNaN(v)?0:v) * rate;
+    if (hint) hint.textContent = '≈ €' + eur.toFixed(2);
+  }
+  if (inp && hint){ inp.addEventListener('input', upd); upd(); }
+})();
+</script>

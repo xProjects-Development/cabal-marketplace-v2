@@ -1,0 +1,1 @@
+<?php require_once __DIR__ . '/../app/bootstrap.php'; $u=current_user(); json_response(['user'=>$u ? ['id'=>$u['id'],'username'=>$u['username'],'role'=>$u['role']] : null]); 

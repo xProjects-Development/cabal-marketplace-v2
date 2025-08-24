@@ -1,0 +1,23 @@
+[21-Aug-2025 15:40:00 UTC] PHP Fatal error:  Cannot redeclare db() (previously declared in /home/tsgumshd/public_html/app/db.php:3) in /home/tsgumshd/public_html/app/settings.php on line 2
+[21-Aug-2025 15:40:03 UTC] PHP Fatal error:  Cannot redeclare db() (previously declared in /home/tsgumshd/public_html/app/db.php:3) in /home/tsgumshd/public_html/app/settings.php on line 2
+[21-Aug-2025 15:40:08 UTC] PHP Fatal error:  Cannot redeclare db() (previously declared in /home/tsgumshd/public_html/app/db.php:3) in /home/tsgumshd/public_html/app/settings.php on line 2
+[21-Aug-2025 15:40:13 UTC] PHP Fatal error:  Cannot redeclare db() (previously declared in /home/tsgumshd/public_html/app/db.php:3) in /home/tsgumshd/public_html/app/settings.php on line 2
+[21-Aug-2025 15:40:18 UTC] PHP Fatal error:  Cannot redeclare db() (previously declared in /home/tsgumshd/public_html/app/db.php:3) in /home/tsgumshd/public_html/app/settings.php on line 2
+[21-Aug-2025 15:40:23 UTC] PHP Fatal error:  Cannot redeclare db() (previously declared in /home/tsgumshd/public_html/app/db.php:3) in /home/tsgumshd/public_html/app/settings.php on line 2
+[21-Aug-2025 15:40:28 UTC] PHP Fatal error:  Cannot redeclare db() (previously declared in /home/tsgumshd/public_html/app/db.php:3) in /home/tsgumshd/public_html/app/settings.php on line 2
+[23-Aug-2025 10:20:50 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ALZ_MAX" in /home/tsgumshd/public_html/api/offer_create.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tsgumshd/public_html/api/offer_create.php on line 9
+[23-Aug-2025 10:20:53 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ALZ_MAX" in /home/tsgumshd/public_html/api/offer_create.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tsgumshd/public_html/api/offer_create.php on line 9
+[23-Aug-2025 16:58:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'tsgumshd_kyami'@'localhost' (using password: YES) in /home/tsgumshd/public_html/app/db.php:6
+Stack trace:
+#0 /home/tsgumshd/public_html/app/db.php(6): mysqli->__construct('localhost', 'tsgumshd_kyami', 'U+C~eQM]Fm1r_A=...', 'tsgumshd_nft_ma...')
+#1 /home/tsgumshd/public_html/app/settings.php(6): db()
+#2 /home/tsgumshd/public_html/app/bootstrap.php(16): settings_load()
+#3 /home/tsgumshd/public_html/api/shout_fetch.php(1): require_once('/home/tsgumshd/...')
+#4 {main}
+  thrown in /home/tsgumshd/public_html/app/db.php on line 6

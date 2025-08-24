@@ -1,0 +1,7 @@
+INBOX MESSAGE REPORT INTEGRATION
+
+If you're using the 'inbox-improve' script I sent, add ONE line inside renderMessage(it) after wrap.innerHTML=... :
+
+  wrap.innerHTML += '<div class="text-[11px]"><a class="text-red-600 hover:underline" href="/report.php?type=message&id='+ it.id +'"><i class="fas fa-flag"></i> Report</a></div>';
+
+This creates a small "Report" link under each message bubble that opens /report.php for that message id.

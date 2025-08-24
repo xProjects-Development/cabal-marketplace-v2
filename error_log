@@ -1,0 +1,1168 @@
+[21-Aug-2025 15:40:32 UTC] PHP Fatal error:  Cannot redeclare db() (previously declared in /home/tsgumshd/public_html/app/db.php:3) in /home/tsgumshd/public_html/app/settings.php on line 2
+[21-Aug-2025 15:40:34 UTC] PHP Fatal error:  Cannot redeclare db() (previously declared in /home/tsgumshd/public_html/app/db.php:3) in /home/tsgumshd/public_html/app/settings.php on line 2
+[21-Aug-2025 15:40:39 UTC] PHP Fatal error:  Cannot redeclare db() (previously declared in /home/tsgumshd/public_html/app/db.php:3) in /home/tsgumshd/public_html/app/settings.php on line 2
+[21-Aug-2025 15:41:52 UTC] PHP Fatal error:  Cannot redeclare db() (previously declared in /home/tsgumshd/public_html/app/db.php:3) in /home/tsgumshd/public_html/app/settings.php on line 2
+[21-Aug-2025 16:18:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'price_alz' at row 1 in /home/tsgumshd/public_html/app/nft.php:25
+Stack trace:
+#0 /home/tsgumshd/public_html/app/nft.php(25): mysqli_stmt->execute()
+#1 /home/tsgumshd/public_html/create.php(13): nft_create(3, 'Testing picture...', 'This is test ma...', 4500000000000.0, 'Equipment', '/assets/uploads...')
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/nft.php on line 25
+[21-Aug-2025 16:18:47 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'price_alz' at row 1 in /home/tsgumshd/public_html/app/nft.php:25
+Stack trace:
+#0 /home/tsgumshd/public_html/app/nft.php(25): mysqli_stmt->execute()
+#1 /home/tsgumshd/public_html/create.php(13): nft_create(3, 'test', 'test', 555555555.0, 'Equipment', '/assets/uploads...')
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/nft.php on line 25
+[21-Aug-2025 16:21:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'price_alz' at row 1 in /home/tsgumshd/public_html/app/nft.php:25
+Stack trace:
+#0 /home/tsgumshd/public_html/app/nft.php(25): mysqli_stmt->execute()
+#1 /home/tsgumshd/public_html/create.php(13): nft_create(3, 'Palladium Orb o...', 'This is test pr...', 500000000.0, 'Equipment', '/assets/uploads...')
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/nft.php on line 25
+[21-Aug-2025 16:31:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'price_alz' at row 1 in /home/tsgumshd/public_html/app/nft.php:25
+Stack trace:
+#0 /home/tsgumshd/public_html/app/nft.php(25): mysqli_stmt->execute()
+#1 /home/tsgumshd/public_html/create.php(13): nft_create(3, 'Palladium Orb', 'This is testing...', 50000000000.0, 'Equipment', '/assets/uploads...')
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/nft.php on line 25
+[21-Aug-2025 16:32:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'price_alz' at row 1 in /home/tsgumshd/public_html/app/nft.php:25
+Stack trace:
+#0 /home/tsgumshd/public_html/app/nft.php(25): mysqli_stmt->execute()
+#1 /home/tsgumshd/public_html/create.php(13): nft_create(3, 'Palladium Orb', 'this is testing...', 50000000000.0, 'Equipment', '/assets/uploads...')
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/nft.php on line 25
+[21-Aug-2025 16:40:50 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ALZ_MAX" in /home/tsgumshd/public_html/create.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/tsgumshd/public_html/create.php on line 32
+[21-Aug-2025 16:40:56 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ALZ_MAX" in /home/tsgumshd/public_html/create.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/tsgumshd/public_html/create.php on line 32
+[21-Aug-2025 16:40:59 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ALZ_MAX" in /home/tsgumshd/public_html/create.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/tsgumshd/public_html/create.php on line 32
+[21-Aug-2025 16:42:29 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ALZ_MAX" in /home/tsgumshd/public_html/create.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/tsgumshd/public_html/create.php on line 32
+[21-Aug-2025 16:42:35 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ALZ_MAX" in /home/tsgumshd/public_html/create.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/tsgumshd/public_html/create.php on line 32
+[21-Aug-2025 17:07:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'n.is_featured' in 'SELECT' in /home/tsgumshd/public_html/app/admin_extras.php:74
+Stack trace:
+#0 /home/tsgumshd/public_html/app/admin_extras.php(74): mysqli->prepare('SELECT n.id,n.t...')
+#1 /home/tsgumshd/public_html/admin.php(28): adminx_nfts('', 50, 0)
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/admin_extras.php on line 74
+[21-Aug-2025 17:07:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'o.type' in 'SELECT' in /home/tsgumshd/public_html/app/admin_extras.php:105
+Stack trace:
+#0 /home/tsgumshd/public_html/app/admin_extras.php(105): mysqli->prepare('SELECT o.id, o....')
+#1 /home/tsgumshd/public_html/admin.php(29): adminx_offers(25)
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/admin_extras.php on line 105
+[21-Aug-2025 17:07:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'o.type' in 'SELECT' in /home/tsgumshd/public_html/app/admin_extras.php:105
+Stack trace:
+#0 /home/tsgumshd/public_html/app/admin_extras.php(105): mysqli->prepare('SELECT o.id, o....')
+#1 /home/tsgumshd/public_html/admin.php(29): adminx_offers(25)
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/admin_extras.php on line 105
+[21-Aug-2025 17:07:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'o.type' in 'SELECT' in /home/tsgumshd/public_html/app/admin_extras.php:105
+Stack trace:
+#0 /home/tsgumshd/public_html/app/admin_extras.php(105): mysqli->prepare('SELECT o.id, o....')
+#1 /home/tsgumshd/public_html/admin.php(29): adminx_offers(25)
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/admin_extras.php on line 105
+[21-Aug-2025 17:09:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'o.type' in 'SELECT' in /home/tsgumshd/public_html/app/admin_extras.php:105
+Stack trace:
+#0 /home/tsgumshd/public_html/app/admin_extras.php(105): mysqli->prepare('SELECT o.id, o....')
+#1 /home/tsgumshd/public_html/admin.php(29): adminx_offers(25)
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/admin_extras.php on line 105
+[21-Aug-2025 17:10:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'o.type' in 'SELECT' in /home/tsgumshd/public_html/app/admin_extras.php:105
+Stack trace:
+#0 /home/tsgumshd/public_html/app/admin_extras.php(105): mysqli->prepare('SELECT o.id, o....')
+#1 /home/tsgumshd/public_html/admin.php(29): adminx_offers(25)
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/admin_extras.php on line 105
+[21-Aug-2025 17:12:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'o.type' in 'SELECT' in /home/tsgumshd/public_html/app/admin_extras.php:105
+Stack trace:
+#0 /home/tsgumshd/public_html/app/admin_extras.php(105): mysqli->prepare('SELECT o.id, o....')
+#1 /home/tsgumshd/public_html/admin.php(29): adminx_offers(25)
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/admin_extras.php on line 105
+[21-Aug-2025 17:12:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'o.type' in 'SELECT' in /home/tsgumshd/public_html/app/admin_extras.php:105
+Stack trace:
+#0 /home/tsgumshd/public_html/app/admin_extras.php(105): mysqli->prepare('SELECT o.id, o....')
+#1 /home/tsgumshd/public_html/admin.php(29): adminx_offers(25)
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/admin_extras.php on line 105
+[21-Aug-2025 17:13:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'o.type' in 'SELECT' in /home/tsgumshd/public_html/app/admin_extras.php:110
+Stack trace:
+#0 /home/tsgumshd/public_html/app/admin_extras.php(110): mysqli->query('SELECT o.id, o....')
+#1 /home/tsgumshd/public_html/admin.php(32): adminx_offers(25)
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/admin_extras.php on line 110
+[21-Aug-2025 17:13:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'o.type' in 'SELECT' in /home/tsgumshd/public_html/app/admin_extras.php:110
+Stack trace:
+#0 /home/tsgumshd/public_html/app/admin_extras.php(110): mysqli->query('SELECT o.id, o....')
+#1 /home/tsgumshd/public_html/admin.php(32): adminx_offers(25)
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/admin_extras.php on line 110
+[21-Aug-2025 17:14:27 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'o.type' in 'SELECT' in /home/tsgumshd/public_html/app/admin_extras.php:110
+Stack trace:
+#0 /home/tsgumshd/public_html/app/admin_extras.php(110): mysqli->query('SELECT o.id, o....')
+#1 /home/tsgumshd/public_html/admin.php(32): adminx_offers(25)
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/admin_extras.php on line 110
+[21-Aug-2025 17:15:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function adminx_counts() in /home/tsgumshd/public_html/admin.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/tsgumshd/public_html/admin.php on line 28
+[21-Aug-2025 17:16:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function adminx_counts() in /home/tsgumshd/public_html/admin.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/tsgumshd/public_html/admin.php on line 28
+[21-Aug-2025 17:17:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function adminx_counts() in /home/tsgumshd/public_html/admin.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/tsgumshd/public_html/admin.php on line 28
+[21-Aug-2025 17:20:50 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of variables must match the number of parameters in the prepared statement in /home/tsgumshd/public_html/app/admin_extras.php:48
+Stack trace:
+#0 /home/tsgumshd/public_html/app/admin_extras.php(48): mysqli_stmt->bind_param('sss', 'admin', 'admin', 'admin')
+#1 /home/tsgumshd/public_html/admin.php(30): adminx_users('admin', 50, 0)
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/admin_extras.php on line 48
+[21-Aug-2025 17:21:07 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of variables must match the number of parameters in the prepared statement in /home/tsgumshd/public_html/app/admin_extras.php:48
+Stack trace:
+#0 /home/tsgumshd/public_html/app/admin_extras.php(48): mysqli_stmt->bind_param('sss', 'test', 'test', 'test')
+#1 /home/tsgumshd/public_html/admin.php(30): adminx_users('test', 50, 0)
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/admin_extras.php on line 48
+[21-Aug-2025 18:48:37 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of variables must match the number of parameters in the prepared statement in /home/tsgumshd/public_html/app/admin_extras.php:48
+Stack trace:
+#0 /home/tsgumshd/public_html/app/admin_extras.php(48): mysqli_stmt->bind_param('sss', 'test', 'test', 'test')
+#1 /home/tsgumshd/public_html/admin.php(30): adminx_users('test', 50, 0)
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/admin_extras.php on line 48
+[21-Aug-2025 19:18:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`tsgumshd_nft_market`.`conversations`, CONSTRAINT `fk_conv_nft` FOREIGN KEY (`nft_id`) REFERENCES `nfts` (`id`) ON DELETE SET NULL) in /home/tsgumshd/public_html/message.php:48
+Stack trace:
+#0 /home/tsgumshd/public_html/message.php(48): mysqli_stmt->execute()
+#1 /home/tsgumshd/public_html/message.php(63): ensure_conversation(3, 4, 0)
+#2 {main}
+  thrown in /home/tsgumshd/public_html/message.php on line 48
+[21-Aug-2025 19:28:04 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`tsgumshd_nft_market`.`conversations`, CONSTRAINT `fk_conv_nft` FOREIGN KEY (`nft_id`) REFERENCES `nfts` (`id`) ON DELETE SET NULL) in /home/tsgumshd/public_html/message.php:48
+Stack trace:
+#0 /home/tsgumshd/public_html/message.php(48): mysqli_stmt->execute()
+#1 /home/tsgumshd/public_html/message.php(63): ensure_conversation(3, 4, 0)
+#2 {main}
+  thrown in /home/tsgumshd/public_html/message.php on line 48
+[21-Aug-2025 19:28:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`tsgumshd_nft_market`.`conversations`, CONSTRAINT `fk_conv_nft` FOREIGN KEY (`nft_id`) REFERENCES `nfts` (`id`) ON DELETE SET NULL) in /home/tsgumshd/public_html/message.php:48
+Stack trace:
+#0 /home/tsgumshd/public_html/message.php(48): mysqli_stmt->execute()
+#1 /home/tsgumshd/public_html/message.php(63): ensure_conversation(3, 4, 0)
+#2 {main}
+  thrown in /home/tsgumshd/public_html/message.php on line 48
+[21-Aug-2025 19:28:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`tsgumshd_nft_market`.`conversations`, CONSTRAINT `fk_conv_nft` FOREIGN KEY (`nft_id`) REFERENCES `nfts` (`id`) ON DELETE SET NULL) in /home/tsgumshd/public_html/message.php:48
+Stack trace:
+#0 /home/tsgumshd/public_html/message.php(48): mysqli_stmt->execute()
+#1 /home/tsgumshd/public_html/message.php(63): ensure_conversation(3, 4, 0)
+#2 {main}
+  thrown in /home/tsgumshd/public_html/message.php on line 48
+[22-Aug-2025 07:13:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'alz_to_eur' at row 1 in /home/tsgumshd/public_html/app/settings.php:16
+Stack trace:
+#0 /home/tsgumshd/public_html/app/settings.php(16): mysqli_stmt->execute()
+#1 /home/tsgumshd/public_html/admin.php(16): settings_update(140000000000.0, 0.0, 0)
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/settings.php on line 16
+[22-Aug-2025 07:13:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'alz_to_eur' at row 1 in /home/tsgumshd/public_html/app/settings.php:16
+Stack trace:
+#0 /home/tsgumshd/public_html/app/settings.php(16): mysqli_stmt->execute()
+#1 /home/tsgumshd/public_html/admin.php(16): settings_update(140000000.0, 0.0, 0)
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/settings.php on line 16
+[22-Aug-2025 07:14:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'alz_to_eur' at row 1 in /home/tsgumshd/public_html/app/settings.php:16
+Stack trace:
+#0 /home/tsgumshd/public_html/app/settings.php(16): mysqli_stmt->execute()
+#1 /home/tsgumshd/public_html/admin.php(16): settings_update(1000000000.0, 0.0, 0)
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/settings.php on line 16
+[22-Aug-2025 07:22:30 UTC] PHP Fatal error:  Uncaught ValueError: bcmul(): Argument #2 ($num2) is not well-formed in /home/tsgumshd/public_html/app/currency.php:23
+Stack trace:
+#0 /home/tsgumshd/public_html/app/currency.php(23): bcmul('1', '1.0E-8', 8)
+#1 /home/tsgumshd/public_html/app/currency.php(36): _alz_to_precise('1', '1.0E-8', 8)
+#2 /home/tsgumshd/public_html/app/views/partials/header.php(56): alz_to_eur_precise(1)
+#3 /home/tsgumshd/public_html/admin.php(34): include('/home/tsgumshd/...')
+#4 {main}
+  thrown in /home/tsgumshd/public_html/app/currency.php on line 23
+[22-Aug-2025 07:22:32 UTC] PHP Fatal error:  Uncaught ValueError: bcmul(): Argument #2 ($num2) is not well-formed in /home/tsgumshd/public_html/app/currency.php:23
+Stack trace:
+#0 /home/tsgumshd/public_html/app/currency.php(23): bcmul('1', '1.0E-8', 8)
+#1 /home/tsgumshd/public_html/app/currency.php(36): _alz_to_precise('1', '1.0E-8', 8)
+#2 /home/tsgumshd/public_html/app/views/partials/header.php(56): alz_to_eur_precise(1)
+#3 /home/tsgumshd/public_html/index.php(1): include('/home/tsgumshd/...')
+#4 {main}
+  thrown in /home/tsgumshd/public_html/app/currency.php on line 23
+[22-Aug-2025 07:22:33 UTC] PHP Fatal error:  Uncaught ValueError: bcmul(): Argument #2 ($num2) is not well-formed in /home/tsgumshd/public_html/app/currency.php:23
+Stack trace:
+#0 /home/tsgumshd/public_html/app/currency.php(23): bcmul('1', '1.0E-8', 8)
+#1 /home/tsgumshd/public_html/app/currency.php(36): _alz_to_precise('1', '1.0E-8', 8)
+#2 /home/tsgumshd/public_html/app/views/partials/header.php(56): alz_to_eur_precise(1)
+#3 /home/tsgumshd/public_html/index.php(1): include('/home/tsgumshd/...')
+#4 {main}
+  thrown in /home/tsgumshd/public_html/app/currency.php on line 23
+[22-Aug-2025 07:22:35 UTC] PHP Fatal error:  Uncaught ValueError: bcmul(): Argument #2 ($num2) is not well-formed in /home/tsgumshd/public_html/app/currency.php:23
+Stack trace:
+#0 /home/tsgumshd/public_html/app/currency.php(23): bcmul('1', '1.0E-8', 8)
+#1 /home/tsgumshd/public_html/app/currency.php(36): _alz_to_precise('1', '1.0E-8', 8)
+#2 /home/tsgumshd/public_html/app/views/partials/header.php(56): alz_to_eur_precise(1)
+#3 /home/tsgumshd/public_html/admin.php(34): include('/home/tsgumshd/...')
+#4 {main}
+  thrown in /home/tsgumshd/public_html/app/currency.php on line 23
+[22-Aug-2025 07:22:48 UTC] PHP Fatal error:  Uncaught ValueError: bcmul(): Argument #2 ($num2) is not well-formed in /home/tsgumshd/public_html/app/currency.php:23
+Stack trace:
+#0 /home/tsgumshd/public_html/app/currency.php(23): bcmul('1', '1.0E-8', 8)
+#1 /home/tsgumshd/public_html/app/currency.php(36): _alz_to_precise('1', '1.0E-8', 8)
+#2 /home/tsgumshd/public_html/app/views/partials/header.php(56): alz_to_eur_precise(1)
+#3 /home/tsgumshd/public_html/index.php(1): include('/home/tsgumshd/...')
+#4 {main}
+  thrown in /home/tsgumshd/public_html/app/currency.php on line 23
+[22-Aug-2025 07:22:50 UTC] PHP Fatal error:  Uncaught ValueError: bcmul(): Argument #2 ($num2) is not well-formed in /home/tsgumshd/public_html/app/currency.php:23
+Stack trace:
+#0 /home/tsgumshd/public_html/app/currency.php(23): bcmul('1', '1.0E-8', 8)
+#1 /home/tsgumshd/public_html/app/currency.php(36): _alz_to_precise('1', '1.0E-8', 8)
+#2 /home/tsgumshd/public_html/app/views/partials/header.php(56): alz_to_eur_precise(1)
+#3 /home/tsgumshd/public_html/admin.php(34): include('/home/tsgumshd/...')
+#4 {main}
+  thrown in /home/tsgumshd/public_html/app/currency.php on line 23
+[22-Aug-2025 07:23:30 UTC] PHP Fatal error:  Uncaught ValueError: bcmul(): Argument #2 ($num2) is not well-formed in /home/tsgumshd/public_html/app/currency.php:23
+Stack trace:
+#0 /home/tsgumshd/public_html/app/currency.php(23): bcmul('1', '1.0E-8', 8)
+#1 /home/tsgumshd/public_html/app/currency.php(36): _alz_to_precise('1', '1.0E-8', 8)
+#2 /home/tsgumshd/public_html/app/views/partials/header.php(56): alz_to_eur_precise(1)
+#3 /home/tsgumshd/public_html/index.php(1): include('/home/tsgumshd/...')
+#4 {main}
+  thrown in /home/tsgumshd/public_html/app/currency.php on line 23
+[22-Aug-2025 07:23:32 UTC] PHP Fatal error:  Uncaught ValueError: bcmul(): Argument #2 ($num2) is not well-formed in /home/tsgumshd/public_html/app/currency.php:23
+Stack trace:
+#0 /home/tsgumshd/public_html/app/currency.php(23): bcmul('1', '1.0E-8', 8)
+#1 /home/tsgumshd/public_html/app/currency.php(36): _alz_to_precise('1', '1.0E-8', 8)
+#2 /home/tsgumshd/public_html/app/views/partials/header.php(56): alz_to_eur_precise(1)
+#3 /home/tsgumshd/public_html/index.php(1): include('/home/tsgumshd/...')
+#4 {main}
+  thrown in /home/tsgumshd/public_html/app/currency.php on line 23
+[22-Aug-2025 07:23:33 UTC] PHP Fatal error:  Uncaught ValueError: bcmul(): Argument #2 ($num2) is not well-formed in /home/tsgumshd/public_html/app/currency.php:23
+Stack trace:
+#0 /home/tsgumshd/public_html/app/currency.php(23): bcmul('1', '1.0E-8', 8)
+#1 /home/tsgumshd/public_html/app/currency.php(36): _alz_to_precise('1', '1.0E-8', 8)
+#2 /home/tsgumshd/public_html/app/views/partials/header.php(56): alz_to_eur_precise(1)
+#3 /home/tsgumshd/public_html/index.php(1): include('/home/tsgumshd/...')
+#4 {main}
+  thrown in /home/tsgumshd/public_html/app/currency.php on line 23
+[22-Aug-2025 07:23:34 UTC] PHP Fatal error:  Uncaught ValueError: bcmul(): Argument #2 ($num2) is not well-formed in /home/tsgumshd/public_html/app/currency.php:23
+Stack trace:
+#0 /home/tsgumshd/public_html/app/currency.php(23): bcmul('1', '1.0E-8', 8)
+#1 /home/tsgumshd/public_html/app/currency.php(36): _alz_to_precise('1', '1.0E-8', 8)
+#2 /home/tsgumshd/public_html/app/views/partials/header.php(56): alz_to_eur_precise(1)
+#3 /home/tsgumshd/public_html/marketplace.php(1): include('/home/tsgumshd/...')
+#4 {main}
+  thrown in /home/tsgumshd/public_html/app/currency.php on line 23
+[22-Aug-2025 07:23:35 UTC] PHP Fatal error:  Uncaught ValueError: bcmul(): Argument #2 ($num2) is not well-formed in /home/tsgumshd/public_html/app/currency.php:23
+Stack trace:
+#0 /home/tsgumshd/public_html/app/currency.php(23): bcmul('1', '1.0E-8', 8)
+#1 /home/tsgumshd/public_html/app/currency.php(36): _alz_to_precise('1', '1.0E-8', 8)
+#2 /home/tsgumshd/public_html/app/views/partials/header.php(56): alz_to_eur_precise(1)
+#3 /home/tsgumshd/public_html/profiles.php(1): include('/home/tsgumshd/...')
+#4 {main}
+  thrown in /home/tsgumshd/public_html/app/currency.php on line 23
+[22-Aug-2025 07:23:37 UTC] PHP Fatal error:  Uncaught ValueError: bcmul(): Argument #2 ($num2) is not well-formed in /home/tsgumshd/public_html/app/currency.php:23
+Stack trace:
+#0 /home/tsgumshd/public_html/app/currency.php(23): bcmul('1', '1.0E-8', 8)
+#1 /home/tsgumshd/public_html/app/currency.php(36): _alz_to_precise('1', '1.0E-8', 8)
+#2 /home/tsgumshd/public_html/app/views/partials/header.php(56): alz_to_eur_precise(1)
+#3 /home/tsgumshd/public_html/inbox.php(2): include('/home/tsgumshd/...')
+#4 {main}
+  thrown in /home/tsgumshd/public_html/app/currency.php on line 23
+[22-Aug-2025 07:23:37 UTC] PHP Fatal error:  Uncaught ValueError: bcmul(): Argument #2 ($num2) is not well-formed in /home/tsgumshd/public_html/app/currency.php:23
+Stack trace:
+#0 /home/tsgumshd/public_html/app/currency.php(23): bcmul('1', '1.0E-8', 8)
+#1 /home/tsgumshd/public_html/app/currency.php(36): _alz_to_precise('1', '1.0E-8', 8)
+#2 /home/tsgumshd/public_html/app/views/partials/header.php(56): alz_to_eur_precise(1)
+#3 /home/tsgumshd/public_html/admin.php(34): include('/home/tsgumshd/...')
+#4 {main}
+  thrown in /home/tsgumshd/public_html/app/currency.php on line 23
+[22-Aug-2025 07:23:46 UTC] PHP Fatal error:  Uncaught ValueError: bcmul(): Argument #2 ($num2) is not well-formed in /home/tsgumshd/public_html/app/currency.php:23
+Stack trace:
+#0 /home/tsgumshd/public_html/app/currency.php(23): bcmul('1', '1.0E-8', 8)
+#1 /home/tsgumshd/public_html/app/currency.php(36): _alz_to_precise('1', '1.0E-8', 8)
+#2 /home/tsgumshd/public_html/app/views/partials/header.php(56): alz_to_eur_precise(1)
+#3 /home/tsgumshd/public_html/index.php(1): include('/home/tsgumshd/...')
+#4 {main}
+  thrown in /home/tsgumshd/public_html/app/currency.php on line 23
+[22-Aug-2025 07:24:42 UTC] PHP Fatal error:  Uncaught ValueError: bcmul(): Argument #2 ($num2) is not well-formed in /home/tsgumshd/public_html/app/currency.php:23
+Stack trace:
+#0 /home/tsgumshd/public_html/app/currency.php(23): bcmul('1', '1.0E-8', 8)
+#1 /home/tsgumshd/public_html/app/currency.php(36): _alz_to_precise('1', '1.0E-8', 8)
+#2 /home/tsgumshd/public_html/app/views/partials/header.php(56): alz_to_eur_precise(1)
+#3 /home/tsgumshd/public_html/index.php(1): include('/home/tsgumshd/...')
+#4 {main}
+  thrown in /home/tsgumshd/public_html/app/currency.php on line 23
+[22-Aug-2025 07:24:43 UTC] PHP Fatal error:  Uncaught ValueError: bcmul(): Argument #2 ($num2) is not well-formed in /home/tsgumshd/public_html/app/currency.php:23
+Stack trace:
+#0 /home/tsgumshd/public_html/app/currency.php(23): bcmul('1', '1.0E-8', 8)
+#1 /home/tsgumshd/public_html/app/currency.php(36): _alz_to_precise('1', '1.0E-8', 8)
+#2 /home/tsgumshd/public_html/app/views/partials/header.php(56): alz_to_eur_precise(1)
+#3 /home/tsgumshd/public_html/admin.php(34): include('/home/tsgumshd/...')
+#4 {main}
+  thrown in /home/tsgumshd/public_html/app/currency.php on line 23
+[22-Aug-2025 09:39:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'creator_username' in 'SELECT' in /home/tsgumshd/public_html/index.php:5
+Stack trace:
+#0 /home/tsgumshd/public_html/index.php(5): mysqli->query('\n  SELECT id, t...')
+#1 {main}
+  thrown in /home/tsgumshd/public_html/index.php on line 5
+[22-Aug-2025 09:46:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'creator_username' in 'SELECT' in /home/tsgumshd/public_html/snippets/home_featured_query.php:7
+Stack trace:
+#0 /home/tsgumshd/public_html/snippets/home_featured_query.php(7): mysqli->query('\n  SELECT id, t...')
+#1 /home/tsgumshd/public_html/inbox.php(2): include('/home/tsgumshd/...')
+#2 {main}
+  thrown in /home/tsgumshd/public_html/snippets/home_featured_query.php on line 7
+[22-Aug-2025 09:48:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'creator_username' in 'SELECT' in /home/tsgumshd/public_html/snippets/home_featured_query.php:7
+Stack trace:
+#0 /home/tsgumshd/public_html/snippets/home_featured_query.php(7): mysqli->query('\n  SELECT id, t...')
+#1 /home/tsgumshd/public_html/inbox.php(2): include('/home/tsgumshd/...')
+#2 {main}
+  thrown in /home/tsgumshd/public_html/snippets/home_featured_query.php on line 7
+[22-Aug-2025 09:48:42 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'creator_username' in 'SELECT' in /home/tsgumshd/public_html/snippets/home_featured_query.php:7
+Stack trace:
+#0 /home/tsgumshd/public_html/snippets/home_featured_query.php(7): mysqli->query('\n  SELECT id, t...')
+#1 /home/tsgumshd/public_html/inbox.php(2): include('/home/tsgumshd/...')
+#2 {main}
+  thrown in /home/tsgumshd/public_html/snippets/home_featured_query.php on line 7
+[22-Aug-2025 09:49:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'creator_username' in 'SELECT' in /home/tsgumshd/public_html/snippets/home_featured_query.php:7
+Stack trace:
+#0 /home/tsgumshd/public_html/snippets/home_featured_query.php(7): mysqli->query('\n  SELECT id, t...')
+#1 /home/tsgumshd/public_html/inbox.php(2): include('/home/tsgumshd/...')
+#2 {main}
+  thrown in /home/tsgumshd/public_html/snippets/home_featured_query.php on line 7
+[22-Aug-2025 10:44:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'banner_path' in 'SELECT' in /home/tsgumshd/public_html/profile_edit.php:18
+Stack trace:
+#0 /home/tsgumshd/public_html/profile_edit.php(18): mysqli->prepare('SELECT first_na...')
+#1 {main}
+  thrown in /home/tsgumshd/public_html/profile_edit.php on line 18
+[22-Aug-2025 10:45:01 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'banner_path' in 'SELECT' in /home/tsgumshd/public_html/profile_edit.php:18
+Stack trace:
+#0 /home/tsgumshd/public_html/profile_edit.php(18): mysqli->prepare('SELECT first_na...')
+#1 {main}
+  thrown in /home/tsgumshd/public_html/profile_edit.php on line 18
+[22-Aug-2025 10:55:23 UTC] PHP Warning:  Undefined variable $select in /home/tsgumshd/public_html/profile.php on line 30
+[22-Aug-2025 10:55:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' bio, avatar_path, banner_path, location, website, twitter, banner_path FROM ...' at line 1 in /home/tsgumshd/public_html/profile.php:56
+Stack trace:
+#0 /home/tsgumshd/public_html/profile.php(56): mysqli->prepare('SELECT , bio, a...')
+#1 {main}
+  thrown in /home/tsgumshd/public_html/profile.php on line 56
+[22-Aug-2025 10:55:55 UTC] PHP Warning:  Undefined variable $select in /home/tsgumshd/public_html/profile.php on line 30
+[22-Aug-2025 10:55:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' bio, avatar_path, banner_path, location, website, twitter, banner_path FROM ...' at line 1 in /home/tsgumshd/public_html/profile.php:56
+Stack trace:
+#0 /home/tsgumshd/public_html/profile.php(56): mysqli->prepare('SELECT , bio, a...')
+#1 {main}
+  thrown in /home/tsgumshd/public_html/profile.php on line 56
+[22-Aug-2025 10:55:59 UTC] PHP Warning:  Undefined variable $select in /home/tsgumshd/public_html/profile.php on line 30
+[22-Aug-2025 10:55:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' bio, avatar_path, banner_path, location, website, twitter, banner_path FROM ...' at line 1 in /home/tsgumshd/public_html/profile.php:45
+Stack trace:
+#0 /home/tsgumshd/public_html/profile.php(45): mysqli->prepare('SELECT , bio, a...')
+#1 {main}
+  thrown in /home/tsgumshd/public_html/profile.php on line 45
+[22-Aug-2025 10:56:17 UTC] PHP Warning:  Undefined variable $select in /home/tsgumshd/public_html/profile.php on line 30
+[22-Aug-2025 10:56:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' bio, avatar_path, banner_path, location, website, twitter, banner_path FROM ...' at line 1 in /home/tsgumshd/public_html/profile.php:56
+Stack trace:
+#0 /home/tsgumshd/public_html/profile.php(56): mysqli->prepare('SELECT , bio, a...')
+#1 {main}
+  thrown in /home/tsgumshd/public_html/profile.php on line 56
+[22-Aug-2025 10:56:26 UTC] PHP Warning:  Undefined variable $select in /home/tsgumshd/public_html/profile.php on line 30
+[22-Aug-2025 10:56:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' bio, avatar_path, banner_path, location, website, twitter, banner_path FROM ...' at line 1 in /home/tsgumshd/public_html/profile.php:45
+Stack trace:
+#0 /home/tsgumshd/public_html/profile.php(45): mysqli->prepare('SELECT , bio, a...')
+#1 {main}
+  thrown in /home/tsgumshd/public_html/profile.php on line 45
+[22-Aug-2025 10:57:33 UTC] PHP Warning:  Undefined variable $select in /home/tsgumshd/public_html/profile.php on line 30
+[22-Aug-2025 10:57:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' bio, avatar_path, banner_path, location, website, twitter, banner_path FROM ...' at line 1 in /home/tsgumshd/public_html/profile.php:56
+Stack trace:
+#0 /home/tsgumshd/public_html/profile.php(56): mysqli->prepare('SELECT , bio, a...')
+#1 {main}
+  thrown in /home/tsgumshd/public_html/profile.php on line 56
+[22-Aug-2025 10:58:27 UTC] PHP Warning:  Undefined variable $select in /home/tsgumshd/public_html/profile.php on line 30
+[22-Aug-2025 10:58:27 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' bio, avatar_path, banner_path, location, website, twitter, banner_path FROM ...' at line 1 in /home/tsgumshd/public_html/profile.php:56
+Stack trace:
+#0 /home/tsgumshd/public_html/profile.php(56): mysqli->prepare('SELECT , bio, a...')
+#1 {main}
+  thrown in /home/tsgumshd/public_html/profile.php on line 56
+[22-Aug-2025 10:59:18 UTC] PHP Warning:  Undefined variable $select in /home/tsgumshd/public_html/profile.php on line 30
+[22-Aug-2025 10:59:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' bio, avatar_path, banner_path, location, website, twitter, banner_path FROM ...' at line 1 in /home/tsgumshd/public_html/profile.php:56
+Stack trace:
+#0 /home/tsgumshd/public_html/profile.php(56): mysqli->prepare('SELECT , bio, a...')
+#1 {main}
+  thrown in /home/tsgumshd/public_html/profile.php on line 56
+[22-Aug-2025 11:02:14 UTC] PHP Warning:  Undefined variable $select in /home/tsgumshd/public_html/profile.php on line 30
+[22-Aug-2025 11:02:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' bio, avatar_path, banner_path, location, website, twitter, banner_path FROM ...' at line 1 in /home/tsgumshd/public_html/profile.php:56
+Stack trace:
+#0 /home/tsgumshd/public_html/profile.php(56): mysqli->prepare('SELECT , bio, a...')
+#1 {main}
+  thrown in /home/tsgumshd/public_html/profile.php on line 56
+[22-Aug-2025 11:04:01 UTC] PHP Warning:  Undefined variable $select in /home/tsgumshd/public_html/profile.php on line 30
+[22-Aug-2025 11:04:01 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' bio, avatar_path, banner_path, location, website, twitter, banner_path FROM ...' at line 1 in /home/tsgumshd/public_html/profile.php:56
+Stack trace:
+#0 /home/tsgumshd/public_html/profile.php(56): mysqli->prepare('SELECT , bio, a...')
+#1 {main}
+  thrown in /home/tsgumshd/public_html/profile.php on line 56
+[22-Aug-2025 11:04:05 UTC] PHP Warning:  Undefined variable $select in /home/tsgumshd/public_html/profile.php on line 30
+[22-Aug-2025 11:04:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' bio, avatar_path, banner_path, location, website, twitter, banner_path FROM ...' at line 1 in /home/tsgumshd/public_html/profile.php:45
+Stack trace:
+#0 /home/tsgumshd/public_html/profile.php(45): mysqli->prepare('SELECT , bio, a...')
+#1 {main}
+  thrown in /home/tsgumshd/public_html/profile.php on line 45
+[22-Aug-2025 11:29:00 UTC] PHP Warning:  Undefined array key "status" in /home/tsgumshd/public_html/admin_tickets.php on line 4
+[22-Aug-2025 11:29:00 UTC] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in /home/tsgumshd/public_html/admin_tickets.php on line 59
+[22-Aug-2025 11:30:09 UTC] PHP Warning:  Undefined array key "status" in /home/tsgumshd/public_html/admin_tickets.php on line 4
+[22-Aug-2025 11:30:09 UTC] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in /home/tsgumshd/public_html/admin_tickets.php on line 59
+[22-Aug-2025 11:34:39 UTC] PHP Warning:  Undefined array key "status" in /home/tsgumshd/public_html/admin_tickets.php on line 4
+[22-Aug-2025 11:34:39 UTC] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in /home/tsgumshd/public_html/admin_tickets.php on line 59
+[22-Aug-2025 11:34:58 UTC] PHP Warning:  Undefined array key "status" in /home/tsgumshd/public_html/admin_tickets.php on line 4
+[22-Aug-2025 11:34:58 UTC] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in /home/tsgumshd/public_html/admin_tickets.php on line 59
+[22-Aug-2025 11:36:26 UTC] PHP Warning:  Undefined array key "status" in /home/tsgumshd/public_html/admin_tickets.php on line 4
+[22-Aug-2025 11:36:26 UTC] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in /home/tsgumshd/public_html/admin_tickets.php on line 59
+[22-Aug-2025 11:38:07 UTC] PHP Warning:  Undefined array key "status" in /home/tsgumshd/public_html/admin_tickets.php on line 4
+[22-Aug-2025 11:38:07 UTC] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in /home/tsgumshd/public_html/admin_tickets.php on line 59
+[22-Aug-2025 11:40:01 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 't.category' in 'SELECT' in /home/tsgumshd/public_html/admin_tickets.php:138
+Stack trace:
+#0 /home/tsgumshd/public_html/admin_tickets.php(138): mysqli->prepare('SELECT t.id,t.u...')
+#1 {main}
+  thrown in /home/tsgumshd/public_html/admin_tickets.php on line 138
+[22-Aug-2025 11:40:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 't.category' in 'SELECT' in /home/tsgumshd/public_html/admin_tickets.php:138
+Stack trace:
+#0 /home/tsgumshd/public_html/admin_tickets.php(138): mysqli->prepare('SELECT t.id,t.u...')
+#1 {main}
+  thrown in /home/tsgumshd/public_html/admin_tickets.php on line 138
+[22-Aug-2025 11:40:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 't.category' in 'SELECT' in /home/tsgumshd/public_html/admin_tickets.php:138
+Stack trace:
+#0 /home/tsgumshd/public_html/admin_tickets.php(138): mysqli->prepare('SELECT t.id,t.u...')
+#1 {main}
+  thrown in /home/tsgumshd/public_html/admin_tickets.php on line 138
+[22-Aug-2025 11:40:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 't.category' in 'SELECT' in /home/tsgumshd/public_html/admin_tickets.php:138
+Stack trace:
+#0 /home/tsgumshd/public_html/admin_tickets.php(138): mysqli->prepare('SELECT t.id,t.u...')
+#1 {main}
+  thrown in /home/tsgumshd/public_html/admin_tickets.php on line 138
+[22-Aug-2025 11:41:01 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 't.category' in 'SELECT' in /home/tsgumshd/public_html/admin_tickets.php:138
+Stack trace:
+#0 /home/tsgumshd/public_html/admin_tickets.php(138): mysqli->prepare('SELECT t.id,t.u...')
+#1 {main}
+  thrown in /home/tsgumshd/public_html/admin_tickets.php on line 138
+[22-Aug-2025 11:41:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 't.category' in 'SELECT' in /home/tsgumshd/public_html/admin_tickets.php:138
+Stack trace:
+#0 /home/tsgumshd/public_html/admin_tickets.php(138): mysqli->prepare('SELECT t.id,t.u...')
+#1 {main}
+  thrown in /home/tsgumshd/public_html/admin_tickets.php on line 138
+[22-Aug-2025 11:42:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 't.category' in 'SELECT' in /home/tsgumshd/public_html/admin_tickets.php:138
+Stack trace:
+#0 /home/tsgumshd/public_html/admin_tickets.php(138): mysqli->prepare('SELECT t.id,t.u...')
+#1 {main}
+  thrown in /home/tsgumshd/public_html/admin_tickets.php on line 138
+[22-Aug-2025 11:42:42 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 't.category' in 'SELECT' in /home/tsgumshd/public_html/admin_tickets.php:138
+Stack trace:
+#0 /home/tsgumshd/public_html/admin_tickets.php(138): mysqli->prepare('SELECT t.id,t.u...')
+#1 {main}
+  thrown in /home/tsgumshd/public_html/admin_tickets.php on line 138
+[22-Aug-2025 11:43:04 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 't.category' in 'SELECT' in /home/tsgumshd/public_html/admin_tickets.php:138
+Stack trace:
+#0 /home/tsgumshd/public_html/admin_tickets.php(138): mysqli->prepare('SELECT t.id,t.u...')
+#1 {main}
+  thrown in /home/tsgumshd/public_html/admin_tickets.php on line 138
+[22-Aug-2025 11:43:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 't.category' in 'SELECT' in /home/tsgumshd/public_html/admin_tickets.php:138
+Stack trace:
+#0 /home/tsgumshd/public_html/admin_tickets.php(138): mysqli->prepare('SELECT t.id,t.u...')
+#1 {main}
+  thrown in /home/tsgumshd/public_html/admin_tickets.php on line 138
+[22-Aug-2025 11:43:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 't.category' in 'SELECT' in /home/tsgumshd/public_html/admin_tickets.php:138
+Stack trace:
+#0 /home/tsgumshd/public_html/admin_tickets.php(138): mysqli->prepare('SELECT t.id,t.u...')
+#1 {main}
+  thrown in /home/tsgumshd/public_html/admin_tickets.php on line 138
+[22-Aug-2025 11:43:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 't.category' in 'SELECT' in /home/tsgumshd/public_html/admin_tickets.php:138
+Stack trace:
+#0 /home/tsgumshd/public_html/admin_tickets.php(138): mysqli->prepare('SELECT t.id,t.u...')
+#1 {main}
+  thrown in /home/tsgumshd/public_html/admin_tickets.php on line 138
+[22-Aug-2025 11:43:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 't.category' in 'SELECT' in /home/tsgumshd/public_html/admin_tickets.php:138
+Stack trace:
+#0 /home/tsgumshd/public_html/admin_tickets.php(138): mysqli->prepare('SELECT t.id,t.u...')
+#1 {main}
+  thrown in /home/tsgumshd/public_html/admin_tickets.php on line 138
+[22-Aug-2025 11:46:11 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 't.category' in 'SELECT' in /home/tsgumshd/public_html/admin_tickets.php:138
+Stack trace:
+#0 /home/tsgumshd/public_html/admin_tickets.php(138): mysqli->prepare('SELECT t.id,t.u...')
+#1 {main}
+  thrown in /home/tsgumshd/public_html/admin_tickets.php on line 138
+[22-Aug-2025 11:48:48 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 't.category' in 'SELECT' in /home/tsgumshd/public_html/admin_tickets.php:138
+Stack trace:
+#0 /home/tsgumshd/public_html/admin_tickets.php(138): mysqli->prepare('SELECT t.id,t.u...')
+#1 {main}
+  thrown in /home/tsgumshd/public_html/admin_tickets.php on line 138
+[22-Aug-2025 11:48:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 't.category' in 'SELECT' in /home/tsgumshd/public_html/admin_tickets.php:138
+Stack trace:
+#0 /home/tsgumshd/public_html/admin_tickets.php(138): mysqli->prepare('SELECT t.id,t.u...')
+#1 {main}
+  thrown in /home/tsgumshd/public_html/admin_tickets.php on line 138
+[22-Aug-2025 11:50:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 't.category' in 'SELECT' in /home/tsgumshd/public_html/admin_tickets.php:138
+Stack trace:
+#0 /home/tsgumshd/public_html/admin_tickets.php(138): mysqli->prepare('SELECT t.id,t.u...')
+#1 {main}
+  thrown in /home/tsgumshd/public_html/admin_tickets.php on line 138
+[22-Aug-2025 11:50:46 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 't.category' in 'SELECT' in /home/tsgumshd/public_html/admin_tickets.php:138
+Stack trace:
+#0 /home/tsgumshd/public_html/admin_tickets.php(138): mysqli->prepare('SELECT t.id,t.u...')
+#1 {main}
+  thrown in /home/tsgumshd/public_html/admin_tickets.php on line 138
+[22-Aug-2025 11:55:10 UTC] PHP Warning:  Undefined array key "category" in /home/tsgumshd/public_html/helpdesk_view.php on line 133
+[22-Aug-2025 11:55:10 UTC] PHP Fatal error:  Uncaught TypeError: e(): Argument #1 ($s) must be of type string, null given, called in /home/tsgumshd/public_html/helpdesk_view.php on line 133 and defined in /home/tsgumshd/public_html/app/helpers.php:8
+Stack trace:
+#0 /home/tsgumshd/public_html/helpdesk_view.php(133): e(NULL)
+#1 {main}
+  thrown in /home/tsgumshd/public_html/app/helpers.php on line 8
+[22-Aug-2025 11:55:30 UTC] PHP Warning:  Undefined array key "category" in /home/tsgumshd/public_html/helpdesk_view.php on line 133
+[22-Aug-2025 11:55:30 UTC] PHP Fatal error:  Uncaught TypeError: e(): Argument #1 ($s) must be of type string, null given, called in /home/tsgumshd/public_html/helpdesk_view.php on line 133 and defined in /home/tsgumshd/public_html/app/helpers.php:8
+Stack trace:
+#0 /home/tsgumshd/public_html/helpdesk_view.php(133): e(NULL)
+#1 {main}
+  thrown in /home/tsgumshd/public_html/app/helpers.php on line 8
+[22-Aug-2025 11:56:30 UTC] PHP Warning:  Undefined array key "category" in /home/tsgumshd/public_html/helpdesk_view.php on line 133
+[22-Aug-2025 11:56:30 UTC] PHP Fatal error:  Uncaught TypeError: e(): Argument #1 ($s) must be of type string, null given, called in /home/tsgumshd/public_html/helpdesk_view.php on line 133 and defined in /home/tsgumshd/public_html/app/helpers.php:8
+Stack trace:
+#0 /home/tsgumshd/public_html/helpdesk_view.php(133): e(NULL)
+#1 {main}
+  thrown in /home/tsgumshd/public_html/app/helpers.php on line 8
+[22-Aug-2025 11:56:36 UTC] PHP Warning:  Undefined array key "category" in /home/tsgumshd/public_html/helpdesk_view.php on line 133
+[22-Aug-2025 11:56:36 UTC] PHP Fatal error:  Uncaught TypeError: e(): Argument #1 ($s) must be of type string, null given, called in /home/tsgumshd/public_html/helpdesk_view.php on line 133 and defined in /home/tsgumshd/public_html/app/helpers.php:8
+Stack trace:
+#0 /home/tsgumshd/public_html/helpdesk_view.php(133): e(NULL)
+#1 {main}
+  thrown in /home/tsgumshd/public_html/app/helpers.php on line 8
+[22-Aug-2025 11:56:43 UTC] PHP Warning:  Undefined array key "category" in /home/tsgumshd/public_html/helpdesk_view.php on line 133
+[22-Aug-2025 11:56:43 UTC] PHP Fatal error:  Uncaught TypeError: e(): Argument #1 ($s) must be of type string, null given, called in /home/tsgumshd/public_html/helpdesk_view.php on line 133 and defined in /home/tsgumshd/public_html/app/helpers.php:8
+Stack trace:
+#0 /home/tsgumshd/public_html/helpdesk_view.php(133): e(NULL)
+#1 {main}
+  thrown in /home/tsgumshd/public_html/app/helpers.php on line 8
+[22-Aug-2025 12:48:38 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsgumshd/public_html/currency.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsgumshd/public_html/admin.php:201
+Stack trace:
+#0 {main}
+  thrown in /home/tsgumshd/public_html/admin.php on line 201
+[22-Aug-2025 12:52:27 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsgumshd/public_html/currency.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsgumshd/public_html/admin.php:201
+Stack trace:
+#0 {main}
+  thrown in /home/tsgumshd/public_html/admin.php on line 201
+[22-Aug-2025 12:52:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsgumshd/public_html/currency.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsgumshd/public_html/admin.php:201
+Stack trace:
+#0 {main}
+  thrown in /home/tsgumshd/public_html/admin.php on line 201
+[22-Aug-2025 12:52:34 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsgumshd/public_html/currency.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsgumshd/public_html/admin.php:201
+Stack trace:
+#0 {main}
+  thrown in /home/tsgumshd/public_html/admin.php on line 201
+[22-Aug-2025 12:54:17 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsgumshd/public_html/currency.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsgumshd/public_html/admin.php:201
+Stack trace:
+#0 {main}
+  thrown in /home/tsgumshd/public_html/admin.php on line 201
+[22-Aug-2025 12:57:46 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsgumshd/public_html/currency.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsgumshd/public_html/admin.php:42
+Stack trace:
+#0 {main}
+  thrown in /home/tsgumshd/public_html/admin.php on line 42
+[22-Aug-2025 12:57:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsgumshd/public_html/currency.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsgumshd/public_html/admin.php:201
+Stack trace:
+#0 {main}
+  thrown in /home/tsgumshd/public_html/admin.php on line 201
+[22-Aug-2025 12:59:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsgumshd/public_html/currency.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsgumshd/public_html/admin.php:201
+Stack trace:
+#0 {main}
+  thrown in /home/tsgumshd/public_html/admin.php on line 201
+[22-Aug-2025 13:02:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function settings_load() in /home/tsgumshd/public_html/admin.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/tsgumshd/public_html/admin.php on line 3
+[22-Aug-2025 13:02:50 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsgumshd/public_html/currency.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsgumshd/public_html/admin.php:201
+Stack trace:
+#0 {main}
+  thrown in /home/tsgumshd/public_html/admin.php on line 201
+[22-Aug-2025 13:02:59 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsgumshd/public_html/currency.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsgumshd/public_html/admin.php:201
+Stack trace:
+#0 {main}
+  thrown in /home/tsgumshd/public_html/admin.php on line 201
+[22-Aug-2025 13:18:22 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsgumshd/public_html/currency.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsgumshd/public_html/admin.php:201
+Stack trace:
+#0 {main}
+  thrown in /home/tsgumshd/public_html/admin.php on line 201
+[22-Aug-2025 13:20:31 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsgumshd/public_html/currency.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsgumshd/public_html/admin.php:201
+Stack trace:
+#0 {main}
+  thrown in /home/tsgumshd/public_html/admin.php on line 201
+[22-Aug-2025 13:24:15 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsgumshd/public_html/currency.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsgumshd/public_html/admin.php:201
+Stack trace:
+#0 {main}
+  thrown in /home/tsgumshd/public_html/admin.php on line 201
+[22-Aug-2025 13:26:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsgumshd/public_html/currency.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsgumshd/public_html/admin.php:201
+Stack trace:
+#0 {main}
+  thrown in /home/tsgumshd/public_html/admin.php on line 201
+[22-Aug-2025 13:26:17 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsgumshd/public_html/currency.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsgumshd/public_html/admin.php:201
+Stack trace:
+#0 {main}
+  thrown in /home/tsgumshd/public_html/admin.php on line 201
+[22-Aug-2025 13:28:46 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsgumshd/public_html/currency.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsgumshd/public_html/admin.php:201
+Stack trace:
+#0 {main}
+  thrown in /home/tsgumshd/public_html/admin.php on line 201
+[22-Aug-2025 13:29:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsgumshd/public_html/currency.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsgumshd/public_html/admin.php:201
+Stack trace:
+#0 {main}
+  thrown in /home/tsgumshd/public_html/admin.php on line 201
+[22-Aug-2025 13:30:20 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsgumshd/public_html/currency.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsgumshd/public_html/admin.php:201
+Stack trace:
+#0 {main}
+  thrown in /home/tsgumshd/public_html/admin.php on line 201
+[22-Aug-2025 13:31:03 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsgumshd/public_html/currency.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsgumshd/public_html/admin.php:201
+Stack trace:
+#0 {main}
+  thrown in /home/tsgumshd/public_html/admin.php on line 201
+[22-Aug-2025 13:33:05 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsgumshd/public_html/currency.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsgumshd/public_html/admin.php:201
+Stack trace:
+#0 {main}
+  thrown in /home/tsgumshd/public_html/admin.php on line 201
+[22-Aug-2025 13:33:25 UTC] PHP Warning:  Undefined variable $Q in /home/tsgumshd/public_html/admin.php on line 56
+[22-Aug-2025 13:33:25 UTC] PHP Fatal error:  Uncaught TypeError: e(): Argument #1 ($s) must be of type string, null given, called in /home/tsgumshd/public_html/admin.php on line 56 and defined in /home/tsgumshd/public_html/app/helpers.php:8
+Stack trace:
+#0 /home/tsgumshd/public_html/admin.php(56): e(NULL)
+#1 {main}
+  thrown in /home/tsgumshd/public_html/app/helpers.php on line 8
+[22-Aug-2025 13:33:26 UTC] PHP Warning:  Undefined variable $Q in /home/tsgumshd/public_html/admin.php on line 56
+[22-Aug-2025 13:33:26 UTC] PHP Fatal error:  Uncaught TypeError: e(): Argument #1 ($s) must be of type string, null given, called in /home/tsgumshd/public_html/admin.php on line 56 and defined in /home/tsgumshd/public_html/app/helpers.php:8
+Stack trace:
+#0 /home/tsgumshd/public_html/admin.php(56): e(NULL)
+#1 {main}
+  thrown in /home/tsgumshd/public_html/app/helpers.php on line 8
+[22-Aug-2025 13:33:27 UTC] PHP Warning:  Undefined variable $Q in /home/tsgumshd/public_html/admin.php on line 56
+[22-Aug-2025 13:33:27 UTC] PHP Fatal error:  Uncaught TypeError: e(): Argument #1 ($s) must be of type string, null given, called in /home/tsgumshd/public_html/admin.php on line 56 and defined in /home/tsgumshd/public_html/app/helpers.php:8
+Stack trace:
+#0 /home/tsgumshd/public_html/admin.php(56): e(NULL)
+#1 {main}
+  thrown in /home/tsgumshd/public_html/app/helpers.php on line 8
+[22-Aug-2025 13:33:31 UTC] PHP Warning:  Undefined variable $Q in /home/tsgumshd/public_html/admin.php on line 56
+[22-Aug-2025 13:33:31 UTC] PHP Fatal error:  Uncaught TypeError: e(): Argument #1 ($s) must be of type string, null given, called in /home/tsgumshd/public_html/admin.php on line 56 and defined in /home/tsgumshd/public_html/app/helpers.php:8
+Stack trace:
+#0 /home/tsgumshd/public_html/admin.php(56): e(NULL)
+#1 {main}
+  thrown in /home/tsgumshd/public_html/app/helpers.php on line 8
+[22-Aug-2025 13:33:33 UTC] PHP Warning:  Undefined variable $Q in /home/tsgumshd/public_html/admin.php on line 56
+[22-Aug-2025 13:33:33 UTC] PHP Fatal error:  Uncaught TypeError: e(): Argument #1 ($s) must be of type string, null given, called in /home/tsgumshd/public_html/admin.php on line 56 and defined in /home/tsgumshd/public_html/app/helpers.php:8
+Stack trace:
+#0 /home/tsgumshd/public_html/admin.php(56): e(NULL)
+#1 {main}
+  thrown in /home/tsgumshd/public_html/app/helpers.php on line 8
+[22-Aug-2025 13:34:47 UTC] PHP Warning:  Undefined variable $Q in /home/tsgumshd/public_html/admin.php on line 56
+[22-Aug-2025 13:34:47 UTC] PHP Fatal error:  Uncaught TypeError: e(): Argument #1 ($s) must be of type string, null given, called in /home/tsgumshd/public_html/admin.php on line 56 and defined in /home/tsgumshd/public_html/app/helpers.php:8
+Stack trace:
+#0 /home/tsgumshd/public_html/admin.php(56): e(NULL)
+#1 {main}
+  thrown in /home/tsgumshd/public_html/app/helpers.php on line 8
+[22-Aug-2025 13:34:55 UTC] PHP Warning:  Undefined variable $Q in /home/tsgumshd/public_html/admin.php on line 56
+[22-Aug-2025 13:34:55 UTC] PHP Fatal error:  Uncaught TypeError: e(): Argument #1 ($s) must be of type string, null given, called in /home/tsgumshd/public_html/admin.php on line 56 and defined in /home/tsgumshd/public_html/app/helpers.php:8
+Stack trace:
+#0 /home/tsgumshd/public_html/admin.php(56): e(NULL)
+#1 {main}
+  thrown in /home/tsgumshd/public_html/app/helpers.php on line 8
+[22-Aug-2025 13:38:47 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsgumshd/public_html/currency.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsgumshd/public_html/admin.php:201
+Stack trace:
+#0 {main}
+  thrown in /home/tsgumshd/public_html/admin.php on line 201
+[22-Aug-2025 14:14:16 UTC] PHP Warning:  include(partials/system.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/admin.php on line 162
+[22-Aug-2025 14:14:16 UTC] PHP Warning:  include(partials/system.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/admin.php on line 162
+[22-Aug-2025 14:14:16 UTC] PHP Warning:  include(): Failed opening 'partials/system.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsgumshd/public_html/admin.php on line 162
+[22-Aug-2025 14:14:16 UTC] PHP Warning:  include(partials/settings.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/admin.php on line 159
+[22-Aug-2025 14:14:16 UTC] PHP Warning:  include(partials/settings.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/admin.php on line 159
+[22-Aug-2025 14:14:16 UTC] PHP Warning:  include(): Failed opening 'partials/settings.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsgumshd/public_html/admin.php on line 159
+[22-Aug-2025 14:14:17 UTC] PHP Warning:  include(partials/reports.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/admin.php on line 156
+[22-Aug-2025 14:14:17 UTC] PHP Warning:  include(partials/reports.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/admin.php on line 156
+[22-Aug-2025 14:14:17 UTC] PHP Warning:  include(): Failed opening 'partials/reports.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsgumshd/public_html/admin.php on line 156
+[22-Aug-2025 14:14:17 UTC] PHP Warning:  include(partials/offers.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/admin.php on line 153
+[22-Aug-2025 14:14:17 UTC] PHP Warning:  include(partials/offers.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/admin.php on line 153
+[22-Aug-2025 14:14:17 UTC] PHP Warning:  include(): Failed opening 'partials/offers.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsgumshd/public_html/admin.php on line 153
+[22-Aug-2025 14:14:18 UTC] PHP Warning:  include(partials/nfts.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/admin.php on line 150
+[22-Aug-2025 14:14:18 UTC] PHP Warning:  include(partials/nfts.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/admin.php on line 150
+[22-Aug-2025 14:14:18 UTC] PHP Warning:  include(): Failed opening 'partials/nfts.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsgumshd/public_html/admin.php on line 150
+[22-Aug-2025 14:14:18 UTC] PHP Warning:  include(partials/users.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/admin.php on line 147
+[22-Aug-2025 14:14:18 UTC] PHP Warning:  include(partials/users.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/admin.php on line 147
+[22-Aug-2025 14:14:18 UTC] PHP Warning:  include(): Failed opening 'partials/users.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsgumshd/public_html/admin.php on line 147
+[22-Aug-2025 14:14:20 UTC] PHP Warning:  include(partials/users.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/admin.php on line 147
+[22-Aug-2025 14:14:20 UTC] PHP Warning:  include(partials/users.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/admin.php on line 147
+[22-Aug-2025 14:14:20 UTC] PHP Warning:  include(): Failed opening 'partials/users.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsgumshd/public_html/admin.php on line 147
+[22-Aug-2025 14:14:23 UTC] PHP Warning:  include(partials/nfts.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/admin.php on line 150
+[22-Aug-2025 14:14:23 UTC] PHP Warning:  include(partials/nfts.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/admin.php on line 150
+[22-Aug-2025 14:14:23 UTC] PHP Warning:  include(): Failed opening 'partials/nfts.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsgumshd/public_html/admin.php on line 150
+[22-Aug-2025 14:14:25 UTC] PHP Warning:  include(partials/offers.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/admin.php on line 153
+[22-Aug-2025 14:14:25 UTC] PHP Warning:  include(partials/offers.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/admin.php on line 153
+[22-Aug-2025 14:14:25 UTC] PHP Warning:  include(): Failed opening 'partials/offers.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsgumshd/public_html/admin.php on line 153
+[22-Aug-2025 14:14:26 UTC] PHP Warning:  include(partials/nfts.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/admin.php on line 150
+[22-Aug-2025 14:14:26 UTC] PHP Warning:  include(partials/nfts.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/admin.php on line 150
+[22-Aug-2025 14:14:26 UTC] PHP Warning:  include(): Failed opening 'partials/nfts.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsgumshd/public_html/admin.php on line 150
+[22-Aug-2025 14:14:27 UTC] PHP Warning:  include(partials/users.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/admin.php on line 147
+[22-Aug-2025 14:14:27 UTC] PHP Warning:  include(partials/users.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/admin.php on line 147
+[22-Aug-2025 14:14:27 UTC] PHP Warning:  include(): Failed opening 'partials/users.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsgumshd/public_html/admin.php on line 147
+[22-Aug-2025 14:14:50 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsgumshd/public_html/currency.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsgumshd/public_html/admin.php:201
+Stack trace:
+#0 {main}
+  thrown in /home/tsgumshd/public_html/admin.php on line 201
+[22-Aug-2025 14:16:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsgumshd/public_html/currency.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsgumshd/public_html/admin.php:201
+Stack trace:
+#0 {main}
+  thrown in /home/tsgumshd/public_html/admin.php on line 201
+[22-Aug-2025 14:35:18 UTC] PHP Warning:  include(/home/tsgumshd/public_html/app/views/admin/partials/&lt;?= $tab ?&gt;.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/admin.php on line 129
+[22-Aug-2025 14:35:18 UTC] PHP Warning:  include(/home/tsgumshd/public_html/app/views/admin/partials/&lt;?= $tab ?&gt;.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/admin.php on line 129
+[22-Aug-2025 14:35:18 UTC] PHP Warning:  include(): Failed opening '/home/tsgumshd/public_html/app/views/admin/partials/&lt;?= $tab ?&gt;.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsgumshd/public_html/admin.php on line 129
+[22-Aug-2025 14:35:20 UTC] PHP Warning:  include(/home/tsgumshd/public_html/app/views/admin/partials/&lt;?= $tab ?&gt;.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/admin.php on line 129
+[22-Aug-2025 14:35:20 UTC] PHP Warning:  include(/home/tsgumshd/public_html/app/views/admin/partials/&lt;?= $tab ?&gt;.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/admin.php on line 129
+[22-Aug-2025 14:35:20 UTC] PHP Warning:  include(): Failed opening '/home/tsgumshd/public_html/app/views/admin/partials/&lt;?= $tab ?&gt;.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsgumshd/public_html/admin.php on line 129
+[22-Aug-2025 15:23:24 UTC] PHP Warning:  Undefined variable $db in /home/tsgumshd/public_html/admin_dashboard.php on line 13
+[22-Aug-2025 15:23:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/tsgumshd/public_html/admin_dashboard.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/tsgumshd/public_html/admin_dashboard.php on line 13
+[22-Aug-2025 16:58:14 UTC] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/contact.php on line 1
+[22-Aug-2025 16:58:14 UTC] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/contact.php on line 1
+[22-Aug-2025 16:58:14 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsgumshd/public_html/contact.php on line 1
+[22-Aug-2025 16:58:14 UTC] PHP Warning:  include(footer.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/contact.php on line 50
+[22-Aug-2025 16:58:14 UTC] PHP Warning:  include(footer.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/contact.php on line 50
+[22-Aug-2025 16:58:14 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsgumshd/public_html/contact.php on line 50
+[22-Aug-2025 16:59:05 UTC] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/contact.php on line 1
+[22-Aug-2025 16:59:05 UTC] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/contact.php on line 1
+[22-Aug-2025 16:59:05 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsgumshd/public_html/contact.php on line 1
+[22-Aug-2025 16:59:05 UTC] PHP Warning:  include(footer.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/contact.php on line 50
+[22-Aug-2025 16:59:05 UTC] PHP Warning:  include(footer.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/contact.php on line 50
+[22-Aug-2025 16:59:05 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsgumshd/public_html/contact.php on line 50
+[22-Aug-2025 16:59:07 UTC] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/contact.php on line 1
+[22-Aug-2025 16:59:07 UTC] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/contact.php on line 1
+[22-Aug-2025 16:59:07 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsgumshd/public_html/contact.php on line 1
+[22-Aug-2025 16:59:07 UTC] PHP Warning:  include(footer.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/contact.php on line 50
+[22-Aug-2025 16:59:07 UTC] PHP Warning:  include(footer.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/contact.php on line 50
+[22-Aug-2025 16:59:07 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsgumshd/public_html/contact.php on line 50
+[22-Aug-2025 17:00:00 UTC] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/contact.php on line 1
+[22-Aug-2025 17:00:00 UTC] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/contact.php on line 1
+[22-Aug-2025 17:00:00 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsgumshd/public_html/contact.php on line 1
+[22-Aug-2025 17:00:00 UTC] PHP Warning:  include(footer.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/contact.php on line 50
+[22-Aug-2025 17:00:00 UTC] PHP Warning:  include(footer.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/contact.php on line 50
+[22-Aug-2025 17:00:00 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsgumshd/public_html/contact.php on line 50
+[22-Aug-2025 17:00:31 UTC] PHP Warning:  include(/home/tsgumshd/public_html/cookie_banner.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/contact.php on line 1
+[22-Aug-2025 17:00:31 UTC] PHP Warning:  include(/home/tsgumshd/public_html/cookie_banner.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/contact.php on line 1
+[22-Aug-2025 17:00:31 UTC] PHP Warning:  include(): Failed opening '/home/tsgumshd/public_html/cookie_banner.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsgumshd/public_html/contact.php on line 1
+[22-Aug-2025 17:00:31 UTC] PHP Warning:  include(/home/tsgumshd/public_html/report_injector.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/contact.php on line 2
+[22-Aug-2025 17:00:31 UTC] PHP Warning:  include(/home/tsgumshd/public_html/report_injector.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/contact.php on line 2
+[22-Aug-2025 17:00:31 UTC] PHP Warning:  include(): Failed opening '/home/tsgumshd/public_html/report_injector.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsgumshd/public_html/contact.php on line 2
+[22-Aug-2025 17:00:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function e() in /home/tsgumshd/public_html/contact.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/tsgumshd/public_html/contact.php on line 5
+[22-Aug-2025 17:00:48 UTC] PHP Warning:  include(/home/tsgumshd/public_html/cookie_banner.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/contact.php on line 1
+[22-Aug-2025 17:00:48 UTC] PHP Warning:  include(/home/tsgumshd/public_html/cookie_banner.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/contact.php on line 1
+[22-Aug-2025 17:00:48 UTC] PHP Warning:  include(): Failed opening '/home/tsgumshd/public_html/cookie_banner.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsgumshd/public_html/contact.php on line 1
+[22-Aug-2025 17:00:48 UTC] PHP Warning:  include(/home/tsgumshd/public_html/report_injector.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/contact.php on line 2
+[22-Aug-2025 17:00:48 UTC] PHP Warning:  include(/home/tsgumshd/public_html/report_injector.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/contact.php on line 2
+[22-Aug-2025 17:00:48 UTC] PHP Warning:  include(): Failed opening '/home/tsgumshd/public_html/report_injector.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsgumshd/public_html/contact.php on line 2
+[22-Aug-2025 17:00:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function e() in /home/tsgumshd/public_html/contact.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/tsgumshd/public_html/contact.php on line 5
+[22-Aug-2025 17:01:13 UTC] PHP Warning:  include(/home/tsgumshd/public_html/cookie_banner.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/contact.php on line 1
+[22-Aug-2025 17:01:13 UTC] PHP Warning:  include(/home/tsgumshd/public_html/cookie_banner.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/contact.php on line 1
+[22-Aug-2025 17:01:13 UTC] PHP Warning:  include(): Failed opening '/home/tsgumshd/public_html/cookie_banner.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsgumshd/public_html/contact.php on line 1
+[22-Aug-2025 17:01:13 UTC] PHP Warning:  include(/home/tsgumshd/public_html/report_injector.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/contact.php on line 2
+[22-Aug-2025 17:01:13 UTC] PHP Warning:  include(/home/tsgumshd/public_html/report_injector.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/contact.php on line 2
+[22-Aug-2025 17:01:13 UTC] PHP Warning:  include(): Failed opening '/home/tsgumshd/public_html/report_injector.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsgumshd/public_html/contact.php on line 2
+[22-Aug-2025 17:01:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function e() in /home/tsgumshd/public_html/contact.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/tsgumshd/public_html/contact.php on line 5
+[22-Aug-2025 17:01:14 UTC] PHP Warning:  include(/home/tsgumshd/public_html/cookie_banner.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/contact.php on line 1
+[22-Aug-2025 17:01:14 UTC] PHP Warning:  include(/home/tsgumshd/public_html/cookie_banner.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/contact.php on line 1
+[22-Aug-2025 17:01:14 UTC] PHP Warning:  include(): Failed opening '/home/tsgumshd/public_html/cookie_banner.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsgumshd/public_html/contact.php on line 1
+[22-Aug-2025 17:01:14 UTC] PHP Warning:  include(/home/tsgumshd/public_html/report_injector.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/contact.php on line 2
+[22-Aug-2025 17:01:14 UTC] PHP Warning:  include(/home/tsgumshd/public_html/report_injector.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/contact.php on line 2
+[22-Aug-2025 17:01:14 UTC] PHP Warning:  include(): Failed opening '/home/tsgumshd/public_html/report_injector.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsgumshd/public_html/contact.php on line 2
+[22-Aug-2025 17:01:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function e() in /home/tsgumshd/public_html/contact.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/tsgumshd/public_html/contact.php on line 5
+[23-Aug-2025 09:52:07 UTC] PHP Fatal error:  Cannot redeclare e() (previously declared in /home/tsgumshd/public_html/faq.php:19) in /home/tsgumshd/public_html/app/helpers.php on line 8
+[23-Aug-2025 09:52:18 UTC] PHP Fatal error:  Cannot redeclare e() (previously declared in /home/tsgumshd/public_html/faq.php:19) in /home/tsgumshd/public_html/app/helpers.php on line 8
+[23-Aug-2025 09:52:26 UTC] PHP Fatal error:  Cannot redeclare e() (previously declared in /home/tsgumshd/public_html/faq.php:19) in /home/tsgumshd/public_html/app/helpers.php on line 8
+[23-Aug-2025 09:52:48 UTC] PHP Fatal error:  Cannot redeclare e() (previously declared in /home/tsgumshd/public_html/faq.php:19) in /home/tsgumshd/public_html/app/helpers.php on line 8
+[23-Aug-2025 09:54:49 UTC] PHP Fatal error:  Cannot redeclare e() (previously declared in /home/tsgumshd/public_html/faq.php:19) in /home/tsgumshd/public_html/app/helpers.php on line 8
+[23-Aug-2025 09:57:29 UTC] PHP Fatal error:  Cannot redeclare e() (previously declared in /home/tsgumshd/public_html/faq.php:19) in /home/tsgumshd/public_html/app/helpers.php on line 8
+[23-Aug-2025 09:59:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'published' in 'WHERE' in /home/tsgumshd/public_html/faq.php:20
+Stack trace:
+#0 /home/tsgumshd/public_html/faq.php(20): mysqli->query('SELECT id, ques...')
+#1 /home/tsgumshd/public_html/faq.php(23): faq_public_items()
+#2 {main}
+  thrown in /home/tsgumshd/public_html/faq.php on line 20
+[23-Aug-2025 09:59:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'published' in 'WHERE' in /home/tsgumshd/public_html/faq.php:20
+Stack trace:
+#0 /home/tsgumshd/public_html/faq.php(20): mysqli->query('SELECT id, ques...')
+#1 /home/tsgumshd/public_html/faq.php(23): faq_public_items()
+#2 {main}
+  thrown in /home/tsgumshd/public_html/faq.php on line 20
+[23-Aug-2025 10:00:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'published' in 'WHERE' in /home/tsgumshd/public_html/faq.php:20
+Stack trace:
+#0 /home/tsgumshd/public_html/faq.php(20): mysqli->query('SELECT id, ques...')
+#1 /home/tsgumshd/public_html/faq.php(23): faq_public_items()
+#2 {main}
+  thrown in /home/tsgumshd/public_html/faq.php on line 20
+[23-Aug-2025 10:01:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'published' in 'WHERE' in /home/tsgumshd/public_html/faq.php:20
+Stack trace:
+#0 /home/tsgumshd/public_html/faq.php(20): mysqli->query('SELECT id, ques...')
+#1 /home/tsgumshd/public_html/faq.php(23): faq_public_items()
+#2 {main}
+  thrown in /home/tsgumshd/public_html/faq.php on line 20
+[23-Aug-2025 10:02:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'published' in 'WHERE' in /home/tsgumshd/public_html/faq.php:20
+Stack trace:
+#0 /home/tsgumshd/public_html/faq.php(20): mysqli->query('SELECT id, ques...')
+#1 /home/tsgumshd/public_html/faq.php(23): faq_public_items()
+#2 {main}
+  thrown in /home/tsgumshd/public_html/faq.php on line 20
+[23-Aug-2025 10:03:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'published' in 'WHERE' in /home/tsgumshd/public_html/faq.php:20
+Stack trace:
+#0 /home/tsgumshd/public_html/faq.php(20): mysqli->query('SELECT id, ques...')
+#1 /home/tsgumshd/public_html/faq.php(23): faq_public_items()
+#2 {main}
+  thrown in /home/tsgumshd/public_html/faq.php on line 20
+[23-Aug-2025 12:27:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'value' in 'SELECT' in /home/tsgumshd/public_html/app/servers.php:9
+Stack trace:
+#0 /home/tsgumshd/public_html/app/servers.php(9): mysqli->query('SELECT value FR...')
+#1 /home/tsgumshd/public_html/marketplace.php(27): settings_servers()
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/servers.php on line 9
+[23-Aug-2025 12:27:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'value' in 'SELECT' in /home/tsgumshd/public_html/app/servers.php:9
+Stack trace:
+#0 /home/tsgumshd/public_html/app/servers.php(9): mysqli->query('SELECT value FR...')
+#1 /home/tsgumshd/public_html/create.php(61): settings_servers()
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/servers.php on line 9
+[23-Aug-2025 12:27:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'value' in 'SELECT' in /home/tsgumshd/public_html/app/servers.php:9
+Stack trace:
+#0 /home/tsgumshd/public_html/app/servers.php(9): mysqli->query('SELECT value FR...')
+#1 /home/tsgumshd/public_html/marketplace.php(27): settings_servers()
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/servers.php on line 9
+[23-Aug-2025 12:28:04 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'value' in 'SELECT' in /home/tsgumshd/public_html/app/servers.php:9
+Stack trace:
+#0 /home/tsgumshd/public_html/app/servers.php(9): mysqli->query('SELECT value FR...')
+#1 /home/tsgumshd/public_html/admin.php(229): settings_servers()
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/servers.php on line 9
+[23-Aug-2025 12:28:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'value' in 'SELECT' in /home/tsgumshd/public_html/app/servers.php:9
+Stack trace:
+#0 /home/tsgumshd/public_html/app/servers.php(9): mysqli->query('SELECT value FR...')
+#1 /home/tsgumshd/public_html/admin.php(229): settings_servers()
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/servers.php on line 9
+[23-Aug-2025 12:28:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'value' in 'SELECT' in /home/tsgumshd/public_html/app/servers.php:9
+Stack trace:
+#0 /home/tsgumshd/public_html/app/servers.php(9): mysqli->query('SELECT value FR...')
+#1 /home/tsgumshd/public_html/admin.php(215): settings_servers()
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/servers.php on line 9
+[23-Aug-2025 12:28:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'value' in 'SELECT' in /home/tsgumshd/public_html/app/servers.php:9
+Stack trace:
+#0 /home/tsgumshd/public_html/app/servers.php(9): mysqli->query('SELECT value FR...')
+#1 /home/tsgumshd/public_html/admin.php(215): settings_servers()
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/servers.php on line 9
+[23-Aug-2025 12:59:23 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/tsgumshd/public_html/app/admin_extras.php on line 152
+[23-Aug-2025 12:59:49 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/tsgumshd/public_html/app/admin_extras.php on line 152
+[23-Aug-2025 13:00:10 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/tsgumshd/public_html/app/admin_extras.php on line 152
+[23-Aug-2025 13:46:49 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/tsgumshd/public_html/app/admin_upgrades.php on line 73
+[23-Aug-2025 13:47:19 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/tsgumshd/public_html/app/admin_upgrades.php on line 73
+[23-Aug-2025 13:49:53 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/tsgumshd/public_html/app/admin_upgrades.php on line 73
+[23-Aug-2025 13:53:39 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/tsgumshd/public_html/app/admin_upgrades.php on line 73
+[23-Aug-2025 13:55:45 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/tsgumshd/public_html/app/admin_upgrades.php on line 73
+[23-Aug-2025 13:55:47 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/tsgumshd/public_html/app/admin_upgrades.php on line 73
+[23-Aug-2025 14:30:00 UTC] PHP Parse error:  syntax error, unexpected identifier "EU", expecting ")" in /home/tsgumshd/public_html/app/settings_servers.php on line 11
+[23-Aug-2025 14:30:05 UTC] PHP Parse error:  syntax error, unexpected identifier "EU", expecting ")" in /home/tsgumshd/public_html/app/settings_servers.php on line 11
+[23-Aug-2025 14:30:07 UTC] PHP Parse error:  syntax error, unexpected identifier "EU", expecting ")" in /home/tsgumshd/public_html/app/settings_servers.php on line 11
+[23-Aug-2025 14:30:15 UTC] PHP Parse error:  syntax error, unexpected identifier "EU", expecting ")" in /home/tsgumshd/public_html/app/settings_servers.php on line 11
+[23-Aug-2025 14:30:33 UTC] PHP Parse error:  syntax error, unexpected identifier "EU", expecting ")" in /home/tsgumshd/public_html/app/settings_servers.php on line 11
+[23-Aug-2025 14:30:54 UTC] PHP Parse error:  syntax error, unexpected identifier "EU", expecting ")" in /home/tsgumshd/public_html/app/settings_servers.php on line 11
+[23-Aug-2025 14:33:13 UTC] PHP Parse error:  syntax error, unexpected identifier "EU", expecting ")" in /home/tsgumshd/public_html/app/settings_servers.php on line 11
+[23-Aug-2025 14:33:38 UTC] PHP Parse error:  syntax error, unexpected identifier "EU", expecting ")" in /home/tsgumshd/public_html/app/settings_servers.php on line 11
+[23-Aug-2025 14:33:41 UTC] PHP Parse error:  syntax error, unexpected identifier "EU", expecting ")" in /home/tsgumshd/public_html/app/settings_servers.php on line 11
+[23-Aug-2025 14:34:08 UTC] PHP Parse error:  syntax error, unexpected identifier "EU", expecting ")" in /home/tsgumshd/public_html/app/settings_servers.php on line 11
+[23-Aug-2025 14:34:55 UTC] PHP Parse error:  syntax error, unexpected identifier "EU", expecting ")" in /home/tsgumshd/public_html/app/settings_servers.php on line 11
+[23-Aug-2025 14:35:12 UTC] PHP Parse error:  syntax error, unexpected identifier "EU", expecting ")" in /home/tsgumshd/public_html/app/settings_servers.php on line 11
+[23-Aug-2025 14:36:49 UTC] PHP Parse error:  syntax error, unexpected identifier "EU", expecting ")" in /home/tsgumshd/public_html/app/settings_servers.php on line 11
+[23-Aug-2025 14:37:10 UTC] PHP Parse error:  syntax error, unexpected identifier "EU", expecting ")" in /home/tsgumshd/public_html/app/settings_servers.php on line 11
+[23-Aug-2025 14:37:43 UTC] PHP Parse error:  syntax error, unexpected identifier "EU", expecting ")" in /home/tsgumshd/public_html/app/settings_servers.php on line 11
+[23-Aug-2025 14:37:45 UTC] PHP Parse error:  syntax error, unexpected identifier "EU", expecting ")" in /home/tsgumshd/public_html/app/settings_servers.php on line 11
+[23-Aug-2025 14:39:06 UTC] PHP Parse error:  syntax error, unexpected identifier "EU", expecting ")" in /home/tsgumshd/public_html/app/settings_servers.php on line 11
+[23-Aug-2025 14:40:47 UTC] PHP Parse error:  syntax error, unexpected identifier "EU", expecting ")" in /home/tsgumshd/public_html/app/settings_servers.php on line 11
+[23-Aug-2025 14:41:03 UTC] PHP Parse error:  syntax error, unexpected identifier "EU", expecting ")" in /home/tsgumshd/public_html/app/settings_servers.php on line 11
+[23-Aug-2025 14:41:15 UTC] PHP Parse error:  syntax error, unexpected identifier "EU", expecting ")" in /home/tsgumshd/public_html/app/settings_servers.php on line 11
+[23-Aug-2025 14:41:23 UTC] PHP Parse error:  syntax error, unexpected identifier "EU", expecting ")" in /home/tsgumshd/public_html/app/settings_servers.php on line 11
+[23-Aug-2025 14:42:43 UTC] PHP Parse error:  syntax error, unexpected identifier "EU", expecting ")" in /home/tsgumshd/public_html/app/settings_servers.php on line 11
+[23-Aug-2025 14:42:46 UTC] PHP Parse error:  syntax error, unexpected identifier "EU", expecting ")" in /home/tsgumshd/public_html/app/settings_servers.php on line 11
+[23-Aug-2025 14:44:21 UTC] PHP Parse error:  syntax error, unexpected identifier "EU", expecting ")" in /home/tsgumshd/public_html/app/settings_servers.php on line 11
+[23-Aug-2025 14:44:58 UTC] PHP Parse error:  syntax error, unexpected identifier "EU", expecting ")" in /home/tsgumshd/public_html/app/settings_servers.php on line 11
+[23-Aug-2025 14:45:43 UTC] PHP Parse error:  syntax error, unexpected identifier "EU", expecting ")" in /home/tsgumshd/public_html/app/settings_servers.php on line 11
+[23-Aug-2025 14:46:30 UTC] PHP Parse error:  syntax error, unexpected identifier "EU", expecting ")" in /home/tsgumshd/public_html/app/settings_servers.php on line 11
+[23-Aug-2025 14:46:34 UTC] PHP Parse error:  syntax error, unexpected identifier "EU", expecting ")" in /home/tsgumshd/public_html/app/settings_servers.php on line 11
+[23-Aug-2025 14:46:36 UTC] PHP Parse error:  syntax error, unexpected identifier "EU", expecting ")" in /home/tsgumshd/public_html/app/settings_servers.php on line 11
+[23-Aug-2025 14:47:25 UTC] PHP Parse error:  syntax error, unexpected identifier "EU", expecting ")" in /home/tsgumshd/public_html/servers_diag_fix.php on line 112
+[23-Aug-2025 14:47:56 UTC] PHP Parse error:  syntax error, unexpected identifier "EU", expecting ")" in /home/tsgumshd/public_html/servers_diag_fix.php on line 112
+[23-Aug-2025 14:50:58 UTC] PHP Parse error:  syntax error, unexpected identifier "EU", expecting ")" in /home/tsgumshd/public_html/app/settings_servers.php on line 11
+[23-Aug-2025 14:51:01 UTC] PHP Parse error:  syntax error, unexpected identifier "EU", expecting ")" in /home/tsgumshd/public_html/app/settings_servers.php on line 11
+[23-Aug-2025 14:52:33 UTC] PHP Parse error:  syntax error, unexpected identifier "EU", expecting ")" in /home/tsgumshd/public_html/app/settings_servers.php on line 11
+[23-Aug-2025 14:53:08 UTC] PHP Parse error:  syntax error, unexpected identifier "EU", expecting ")" in /home/tsgumshd/public_html/app/settings_servers.php on line 11
+[23-Aug-2025 14:53:29 UTC] PHP Parse error:  syntax error, unexpected identifier "EU", expecting ")" in /home/tsgumshd/public_html/app/servers_bootstrap_v3.php on line 58
+[23-Aug-2025 14:53:31 UTC] PHP Parse error:  syntax error, unexpected identifier "EU", expecting ")" in /home/tsgumshd/public_html/app/servers_bootstrap_v3.php on line 58
+[23-Aug-2025 14:53:31 UTC] PHP Parse error:  syntax error, unexpected identifier "EU", expecting ")" in /home/tsgumshd/public_html/app/servers_bootstrap_v3.php on line 58
+[23-Aug-2025 14:53:31 UTC] PHP Parse error:  syntax error, unexpected identifier "EU", expecting ")" in /home/tsgumshd/public_html/app/servers_bootstrap_v3.php on line 58
+[23-Aug-2025 14:53:48 UTC] PHP Parse error:  syntax error, unexpected identifier "EU", expecting ")" in /home/tsgumshd/public_html/app/settings_servers.php on line 11
+[23-Aug-2025 14:53:59 UTC] PHP Parse error:  syntax error, unexpected identifier "EU", expecting ")" in /home/tsgumshd/public_html/app/settings_servers.php on line 11
+[23-Aug-2025 14:54:07 UTC] PHP Parse error:  syntax error, unexpected identifier "EU", expecting ")" in /home/tsgumshd/public_html/app/settings_servers.php on line 11
+[23-Aug-2025 14:54:51 UTC] PHP Parse error:  syntax error, unexpected identifier "EU", expecting ")" in /home/tsgumshd/public_html/app/settings_servers.php on line 11
+[23-Aug-2025 14:55:53 UTC] PHP Parse error:  syntax error, unexpected identifier "EU", expecting ")" in /home/tsgumshd/public_html/app/settings_servers.php on line 11
+[23-Aug-2025 14:55:54 UTC] PHP Parse error:  syntax error, unexpected identifier "EU", expecting ")" in /home/tsgumshd/public_html/app/settings_servers.php on line 11
+[23-Aug-2025 14:55:55 UTC] PHP Parse error:  syntax error, unexpected identifier "EU", expecting ")" in /home/tsgumshd/public_html/app/settings_servers.php on line 11
+[23-Aug-2025 14:55:55 UTC] PHP Parse error:  syntax error, unexpected identifier "EU", expecting ")" in /home/tsgumshd/public_html/app/settings_servers.php on line 11
+[23-Aug-2025 14:56:08 UTC] PHP Parse error:  syntax error, unexpected identifier "EU", expecting ")" in /home/tsgumshd/public_html/app/settings_servers.php on line 11
+[23-Aug-2025 14:58:32 UTC] PHP Parse error:  syntax error, unexpected identifier "EU", expecting ")" in /home/tsgumshd/public_html/app/settings_servers.php on line 11
+[23-Aug-2025 15:09:07 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/tsgumshd/public_html/admin.php on line 2
+[23-Aug-2025 15:29:14 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/tsgumshd/public_html/admin.php on line 4
+[23-Aug-2025 15:57:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate column name 'servers_json' in /home/tsgumshd/public_html/app/settings_servers.php:13
+Stack trace:
+#0 /home/tsgumshd/public_html/app/settings_servers.php(13): mysqli->query('ALTER TABLE `se...')
+#1 /home/tsgumshd/public_html/marketplace.php(18): settings_servers()
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/settings_servers.php on line 13
+[23-Aug-2025 15:57:47 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate column name 'servers_json' in /home/tsgumshd/public_html/app/settings_servers.php:13
+Stack trace:
+#0 /home/tsgumshd/public_html/app/settings_servers.php(13): mysqli->query('ALTER TABLE `se...')
+#1 /home/tsgumshd/public_html/marketplace.php(18): settings_servers()
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/settings_servers.php on line 13
+[23-Aug-2025 15:57:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate column name 'servers_json' in /home/tsgumshd/public_html/app/settings_servers.php:13
+Stack trace:
+#0 /home/tsgumshd/public_html/app/settings_servers.php(13): mysqli->query('ALTER TABLE `se...')
+#1 /home/tsgumshd/public_html/create.php(20): settings_servers()
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/settings_servers.php on line 13
+[23-Aug-2025 15:57:56 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate column name 'servers_json' in /home/tsgumshd/public_html/app/settings_servers.php:13
+Stack trace:
+#0 /home/tsgumshd/public_html/app/settings_servers.php(13): mysqli->query('ALTER TABLE `se...')
+#1 /home/tsgumshd/public_html/admin.php(216): settings_servers()
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/settings_servers.php on line 13
+[23-Aug-2025 15:58:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate column name 'servers_json' in /home/tsgumshd/public_html/app/settings_servers.php:13
+Stack trace:
+#0 /home/tsgumshd/public_html/app/settings_servers.php(13): mysqli->query('ALTER TABLE `se...')
+#1 /home/tsgumshd/public_html/marketplace.php(18): settings_servers()
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/settings_servers.php on line 13
+[23-Aug-2025 15:58:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate column name 'servers_json' in /home/tsgumshd/public_html/app/settings_servers.php:13
+Stack trace:
+#0 /home/tsgumshd/public_html/app/settings_servers.php(13): mysqli->query('ALTER TABLE `se...')
+#1 /home/tsgumshd/public_html/create.php(20): settings_servers()
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/settings_servers.php on line 13
+[23-Aug-2025 15:58:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate column name 'servers_json' in /home/tsgumshd/public_html/app/settings_servers.php:13
+Stack trace:
+#0 /home/tsgumshd/public_html/app/settings_servers.php(13): mysqli->query('ALTER TABLE `se...')
+#1 /home/tsgumshd/public_html/marketplace.php(18): settings_servers()
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/settings_servers.php on line 13
+[23-Aug-2025 15:58:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate column name 'servers_json' in /home/tsgumshd/public_html/app/settings_servers.php:13
+Stack trace:
+#0 /home/tsgumshd/public_html/app/settings_servers.php(13): mysqli->query('ALTER TABLE `se...')
+#1 /home/tsgumshd/public_html/admin.php(216): settings_servers()
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/settings_servers.php on line 13
+[23-Aug-2025 15:59:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate column name 'servers_json' in /home/tsgumshd/public_html/app/settings_servers.php:13
+Stack trace:
+#0 /home/tsgumshd/public_html/app/settings_servers.php(13): mysqli->query('ALTER TABLE `se...')
+#1 /home/tsgumshd/public_html/marketplace.php(18): settings_servers()
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/settings_servers.php on line 13
+[23-Aug-2025 15:59:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate column name 'servers_json' in /home/tsgumshd/public_html/app/settings_servers.php:13
+Stack trace:
+#0 /home/tsgumshd/public_html/app/settings_servers.php(13): mysqli->query('ALTER TABLE `se...')
+#1 /home/tsgumshd/public_html/create.php(20): settings_servers()
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/settings_servers.php on line 13
+[23-Aug-2025 15:59:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate column name 'servers_json' in /home/tsgumshd/public_html/app/settings_servers.php:13
+Stack trace:
+#0 /home/tsgumshd/public_html/app/settings_servers.php(13): mysqli->query('ALTER TABLE `se...')
+#1 /home/tsgumshd/public_html/marketplace.php(18): settings_servers()
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/settings_servers.php on line 13
+[23-Aug-2025 15:59:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate column name 'servers_json' in /home/tsgumshd/public_html/app/settings_servers.php:13
+Stack trace:
+#0 /home/tsgumshd/public_html/app/settings_servers.php(13): mysqli->query('ALTER TABLE `se...')
+#1 /home/tsgumshd/public_html/admin.php(216): settings_servers()
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/settings_servers.php on line 13
+[23-Aug-2025 16:00:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate column name 'servers_json' in /home/tsgumshd/public_html/app/settings_servers.php:13
+Stack trace:
+#0 /home/tsgumshd/public_html/app/settings_servers.php(13): mysqli->query('ALTER TABLE `se...')
+#1 /home/tsgumshd/public_html/marketplace.php(18): settings_servers()
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/settings_servers.php on line 13
+[23-Aug-2025 16:00:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate column name 'servers_json' in /home/tsgumshd/public_html/app/settings_servers.php:13
+Stack trace:
+#0 /home/tsgumshd/public_html/app/settings_servers.php(13): mysqli->query('ALTER TABLE `se...')
+#1 /home/tsgumshd/public_html/marketplace.php(18): settings_servers()
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/settings_servers.php on line 13
+[23-Aug-2025 16:00:36 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate column name 'servers_json' in /home/tsgumshd/public_html/app/settings_servers.php:13
+Stack trace:
+#0 /home/tsgumshd/public_html/app/settings_servers.php(13): mysqli->query('ALTER TABLE `se...')
+#1 /home/tsgumshd/public_html/create.php(20): settings_servers()
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/settings_servers.php on line 13
+[23-Aug-2025 16:00:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate column name 'servers_json' in /home/tsgumshd/public_html/app/settings_servers.php:13
+Stack trace:
+#0 /home/tsgumshd/public_html/app/settings_servers.php(13): mysqli->query('ALTER TABLE `se...')
+#1 /home/tsgumshd/public_html/admin.php(216): settings_servers()
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/settings_servers.php on line 13
+[23-Aug-2025 16:01:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate column name 'servers_json' in /home/tsgumshd/public_html/app/settings_servers.php:13
+Stack trace:
+#0 /home/tsgumshd/public_html/app/settings_servers.php(13): mysqli->query('ALTER TABLE `se...')
+#1 /home/tsgumshd/public_html/marketplace.php(19): settings_servers()
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/settings_servers.php on line 13
+[23-Aug-2025 16:02:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate column name 'servers_json' in /home/tsgumshd/public_html/app/settings_servers.php:13
+Stack trace:
+#0 /home/tsgumshd/public_html/app/settings_servers.php(13): mysqli->query('ALTER TABLE `se...')
+#1 /home/tsgumshd/public_html/marketplace.php(18): settings_servers()
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/settings_servers.php on line 13
+[23-Aug-2025 16:02:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate column name 'servers_json' in /home/tsgumshd/public_html/app/settings_servers.php:13
+Stack trace:
+#0 /home/tsgumshd/public_html/app/settings_servers.php(13): mysqli->query('ALTER TABLE `se...')
+#1 /home/tsgumshd/public_html/marketplace.php(18): settings_servers()
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/settings_servers.php on line 13
+[23-Aug-2025 16:03:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate column name 'servers_json' in /home/tsgumshd/public_html/app/settings_servers.php:13
+Stack trace:
+#0 /home/tsgumshd/public_html/app/settings_servers.php(13): mysqli->query('ALTER TABLE `se...')
+#1 /home/tsgumshd/public_html/marketplace.php(18): settings_servers()
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/settings_servers.php on line 13
+[23-Aug-2025 16:03:36 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate column name 'servers_json' in /home/tsgumshd/public_html/app/settings_servers.php:13
+Stack trace:
+#0 /home/tsgumshd/public_html/app/settings_servers.php(13): mysqli->query('ALTER TABLE `se...')
+#1 /home/tsgumshd/public_html/marketplace.php(18): settings_servers()
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/settings_servers.php on line 13
+[23-Aug-2025 16:03:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate column name 'servers_json' in /home/tsgumshd/public_html/app/settings_servers.php:13
+Stack trace:
+#0 /home/tsgumshd/public_html/app/settings_servers.php(13): mysqli->query('ALTER TABLE `se...')
+#1 /home/tsgumshd/public_html/admin.php(216): settings_servers()
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/settings_servers.php on line 13
+[23-Aug-2025 16:03:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate column name 'servers_json' in /home/tsgumshd/public_html/app/settings_servers.php:13
+Stack trace:
+#0 /home/tsgumshd/public_html/app/settings_servers.php(13): mysqli->query('ALTER TABLE `se...')
+#1 /home/tsgumshd/public_html/marketplace.php(18): settings_servers()
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/settings_servers.php on line 13
+[23-Aug-2025 16:04:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate column name 'servers_json' in /home/tsgumshd/public_html/app/settings_servers.php:13
+Stack trace:
+#0 /home/tsgumshd/public_html/app/settings_servers.php(13): mysqli->query('ALTER TABLE `se...')
+#1 /home/tsgumshd/public_html/create.php(20): settings_servers()
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/settings_servers.php on line 13
+[23-Aug-2025 16:05:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate column name 'servers_json' in /home/tsgumshd/public_html/app/settings_servers.php:13
+Stack trace:
+#0 /home/tsgumshd/public_html/app/settings_servers.php(13): mysqli->query('ALTER TABLE `se...')
+#1 /home/tsgumshd/public_html/marketplace.php(18): settings_servers()
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/settings_servers.php on line 13
+[23-Aug-2025 16:06:24 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate column name 'servers_json' in /home/tsgumshd/public_html/app/settings_servers.php:13
+Stack trace:
+#0 /home/tsgumshd/public_html/app/settings_servers.php(13): mysqli->query('ALTER TABLE `se...')
+#1 /home/tsgumshd/public_html/marketplace.php(18): settings_servers()
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/settings_servers.php on line 13
+[23-Aug-2025 16:06:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate column name 'servers_json' in /home/tsgumshd/public_html/app/settings_servers.php:13
+Stack trace:
+#0 /home/tsgumshd/public_html/app/settings_servers.php(13): mysqli->query('ALTER TABLE `se...')
+#1 /home/tsgumshd/public_html/marketplace.php(18): settings_servers()
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/settings_servers.php on line 13
+[23-Aug-2025 16:06:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate column name 'servers_json' in /home/tsgumshd/public_html/app/settings_servers.php:13
+Stack trace:
+#0 /home/tsgumshd/public_html/app/settings_servers.php(13): mysqli->query('ALTER TABLE `se...')
+#1 /home/tsgumshd/public_html/create.php(20): settings_servers()
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/settings_servers.php on line 13
+[23-Aug-2025 16:07:44 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate column name 'servers_json' in /home/tsgumshd/public_html/app/settings_servers.php:13
+Stack trace:
+#0 /home/tsgumshd/public_html/app/settings_servers.php(13): mysqli->query('ALTER TABLE `se...')
+#1 /home/tsgumshd/public_html/marketplace.php(18): settings_servers()
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/settings_servers.php on line 13
+[23-Aug-2025 16:07:46 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate column name 'servers_json' in /home/tsgumshd/public_html/app/settings_servers.php:13
+Stack trace:
+#0 /home/tsgumshd/public_html/app/settings_servers.php(13): mysqli->query('ALTER TABLE `se...')
+#1 /home/tsgumshd/public_html/marketplace.php(18): settings_servers()
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/settings_servers.php on line 13
+[23-Aug-2025 16:07:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate column name 'servers_json' in /home/tsgumshd/public_html/app/settings_servers.php:13
+Stack trace:
+#0 /home/tsgumshd/public_html/app/settings_servers.php(13): mysqli->query('ALTER TABLE `se...')
+#1 /home/tsgumshd/public_html/create.php(20): settings_servers()
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/settings_servers.php on line 13
+[23-Aug-2025 16:09:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate column name 'servers_json' in /home/tsgumshd/public_html/app/settings_servers.php:13
+Stack trace:
+#0 /home/tsgumshd/public_html/app/settings_servers.php(13): mysqli->query('ALTER TABLE `se...')
+#1 /home/tsgumshd/public_html/admin.php(216): settings_servers()
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/settings_servers.php on line 13
+[23-Aug-2025 16:11:48 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'id' doesn't have a default value in /home/tsgumshd/public_html/app/settings_servers.php:104
+Stack trace:
+#0 /home/tsgumshd/public_html/app/settings_servers.php(104): mysqli->query('INSERT INTO `se...')
+#1 /home/tsgumshd/public_html/admin.php(35): settings_update_servers(Array)
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/settings_servers.php on line 104
+[23-Aug-2025 16:14:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'id' doesn't have a default value in /home/tsgumshd/public_html/app/settings_servers.php:104
+Stack trace:
+#0 /home/tsgumshd/public_html/app/settings_servers.php(104): mysqli->query('INSERT INTO `se...')
+#1 /home/tsgumshd/public_html/admin.php(35): settings_update_servers(Array)
+#2 {main}
+  thrown in /home/tsgumshd/public_html/app/settings_servers.php on line 104
+[24-Aug-2025 07:58:17 UTC] PHP Warning:  require_once(/home/tsgumshd/public_html/app/admin_links.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/admin.php on line 4
+[24-Aug-2025 07:58:17 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsgumshd/public_html/app/admin_links.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsgumshd/public_html/admin.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/tsgumshd/public_html/admin.php on line 4
+[24-Aug-2025 07:58:22 UTC] PHP Warning:  require_once(/home/tsgumshd/public_html/app/admin_links.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/admin.php on line 4
+[24-Aug-2025 07:58:22 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsgumshd/public_html/app/admin_links.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsgumshd/public_html/admin.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/tsgumshd/public_html/admin.php on line 4
+[24-Aug-2025 07:58:29 UTC] PHP Warning:  require_once(/home/tsgumshd/public_html/app/admin_links.php): Failed to open stream: No such file or directory in /home/tsgumshd/public_html/admin.php on line 4
+[24-Aug-2025 07:58:29 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsgumshd/public_html/app/admin_links.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsgumshd/public_html/admin.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/tsgumshd/public_html/admin.php on line 4
+[24-Aug-2025 08:17:27 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/tsgumshd/public_html/admin.php on line 18
+[24-Aug-2025 08:18:14 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/tsgumshd/public_html/admin.php on line 18

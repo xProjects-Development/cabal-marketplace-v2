@@ -1,0 +1,11 @@
+-- Optional manual schema for FAQs (if auto-migration is disabled)
+CREATE TABLE IF NOT EXISTS `faqs` (
+  `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  `question` TEXT NOT NULL,
+  `answer` MEDIUMTEXT NOT NULL,
+  `is_published` TINYINT(1) NOT NULL DEFAULT 1,
+  `sort_order` INT NOT NULL DEFAULT 0,
+  `created_at` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

@@ -1,0 +1,10 @@
+// Replace shoutbox name span with a link to the user's profile.
+// Find this block in assets/app.js and replace it:
+//
+//   <span class=\"font-semibold text-purple-600\">${ it.first_name } ${ it.last_name } (@${ it.username })</span>
+//
+// with:
+//
+//   <a class=\"font-semibold text-purple-600 hover:underline\" href=\"profile.php?u=${ encodeURIComponent(it.username) }\">${ it.first_name } ${ it.last_name } (@${ it.username })</a>
+//
+// Or simply overwrite your assets/app.js with the latest from earlier patches if you prefer.

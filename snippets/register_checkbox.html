@@ -1,0 +1,19 @@
+<!-- Terms consent (auto-inserted) -->
+<div class="mt-4">
+  <label class="inline-flex items-start gap-2">
+    <input id="terms_accept_checkbox" type="checkbox" name="accept_terms" value="1" required class="mt-1">
+    <span class="text-sm text-gray-700">
+      I agree to the <a class="text-purple-600 underline" href="/terms.php" target="_blank">Terms of Service</a>
+    </span>
+  </label>
+</div>
+<script>
+(function(){
+  var cb = document.getElementById('terms_accept_checkbox');
+  if (!cb) return;
+  var f = cb.closest('form'); if(!f) return;
+  f.addEventListener('submit', function(e){
+    if (!cb.checked) { e.preventDefault(); alert('Please agree to the Terms to continue.'); cb.focus(); }
+  }, true);
+})();
+</script>

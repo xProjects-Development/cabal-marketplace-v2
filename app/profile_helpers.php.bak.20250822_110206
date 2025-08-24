@@ -1,0 +1,111 @@
+<?php
+require_once __DIR__ . '/bootstrap.php';
+
+function _col_exists($table, $col){
+  $t = db()->real_escape_string($table);
+  $c = db()->real_escape_string($col);
+  $r = db()->query("SHOW COLUMNS FROM `{$t}` LIKE '{$c}'");
+  return $r && $r->num_rows > 0;
+}
+
+/**
+ * profile_update
+ * - Only updates keys that are set AND non-empty (so you don't wipe values accidentally).
+ * - To intentionally clear a field, post the special value "__CLEAR__".
+ * - Checkboxes (is_profile_public, show_email) are handled explicitly (0/1).
+ * - Avatar image is saved only if a new file is uploaded.
+ */
+function profile_update(int $userId, array $post, array $files): bool {
+  if ($userId <= 0) return false;
+  $db = db();
+
+  $sets = []; $types = ''; $vals = [];
+
+  // Text fields you allow from the form
+  $textKeys = ['bio','location','website','twitter','telegram'];
+
+  foreach ($textKeys as $k){
+    if (!array_key_exists($k, $post)) continue;      // not submitted -> leave DB as is
+
+    $v = (string)$post[$k];
+
+    // explicit clear
+    if ($v === '__CLEAR__') {
+      if (_col_exists('users', $k)) $sets[] = "`$k`=NULL";
+      continue;
+    }
+
+    // skip empty strings to prevent overwrite with blanks
+    if (trim($v) === '') continue;
+
+    // normalize some inputs
+    if ($k === 'website') {
+      if ($v && !preg_match('~^https?://~i', $v)) $v = 'https://' . $v;
+    }
+    if ($k === 'twitter' || $k === 'telegram') {
+      if (strlen($v) && $v[0]==='@') $v = substr($v, 1);
+    }
+
+    if (_col_exists('users', $k)){
+      $sets[] = "`$k`=?";
+      $types .= 's';
+      $vals[] = $v;
+    }
+  }
+
+  // Checkboxes: absent means unchecked (0)
+  $bools = [
+    'is_profile_public' => isset($post['is_profile_public']) ? 1 : 0,
+    'show_email'        => isset($post['show_email'])        ? 1 : 0,
+  ];
+  foreach ($bools as $k => $v) {
+    if (_col_exists('users', $k)) {
+      $sets[]  = "`$k`=?";
+      $types  .= 'i';
+      $vals[]  = $v;
+    }
+  }
+
+  // Avatar upload (only if new file provided)
+  if (!empty($files['avatar']['name']) && is_uploaded_file($files['avatar']['tmp_name'])) {
+    $tmp  = $files['avatar']['tmp_name'];
+    $info = @getimagesize($tmp);
+    if ($info !== false) {
+      $ext = image_type_to_extension($info[2], false) ?: 'jpg';
+      $dir = __DIR__ . '/../uploads/avatars';
+      if (!is_dir($dir)) @mkdir($dir, 0775, true);
+      $name = 'ava_' . $userId . '_' . time() . '.' . $ext;
+      $dest = $dir . '/' . $name;
+      if (move_uploaded_file($tmp, $dest)) {
+        $public = '/uploads/avatars/' . $name;
+
+        if (_col_exists('users','avatar_path')) {
+          $sets[]  = "`avatar_path`=?";
+          $types  .= 's';
+          $vals[]  = $public;
+        } elseif (_col_exists('users','avatar_url')) {
+          $sets[]  = "`avatar_url`=?";
+          $types  .= 's';
+          $vals[]  = $public;
+        } elseif (_col_exists('users','avatar')) {
+          $sets[]  = "`avatar`=?";
+          $types  .= 's';
+          $vals[]  = $public;
+        }
+      }
+    }
+  }
+
+  if (!$sets) return true; // nothing to change
+
+  $sql = "UPDATE users SET " . implode(',', $sets) . " WHERE id=?";
+  $types .= 'i';
+  $vals[]  = $userId;
+
+  $stmt = $db->prepare($sql);
+  if (!$stmt) return false;
+  $stmt->bind_param($types, ...$vals);
+  $ok = $stmt->execute();
+  $stmt->close();
+  return (bool)$ok;
+}

@@ -1,0 +1,7 @@
+<!-- snippets/admin_settings_form_alz_max.html -->
+<div>
+  <label class="block text-sm font-medium mb-2">ALZ Maximum</label>
+  <input type="number" name="alz_max" step="1" value="<?= e(settings_read_kv('alz_max', 140000000000)) ?>"
+         class="w-full px-3 py-2 border rounded-lg" />
+  <p class="text-xs text-gray-500 mt-1">Hard cap to prevent absurd prices (default 140,000,000,000).</p>
+</div>
